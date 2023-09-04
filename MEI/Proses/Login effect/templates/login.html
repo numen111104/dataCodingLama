@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Title>Login</Title>
+    <link rel="stylesheet" href="styles_loginwfb.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="bg-img">
+        <div class="content">
+            <header>Anggota WFB</header>
+            <form action="#">
+                <div class="field">
+                    <span class= "fa fa-user"></span>
+                    <input type="text" required placeholder="Masukkan Email"/>
+                </div>
+                <div class="field space">
+                    <span class="fa fa-lock"></span>
+                    <input type="password" class="pass-key" required placeholder="Password"/>
+                    <span class="show">Lihat</span>
+                </div>
+                <div class="pass">
+                    <a href="#">Lupa Password?</a>
+                </div>
+                <div class="field">
+                    <input type="submit" value="MASUK" />
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+<script>
+  let images = [
+    'wfb_rame.jpg',
+    'wfb_rame_2.jpg',
+    'wfb_rame_3.jpg'
+  ];
+  let index = 0;
+  
+  function changeBgImage() {
+    document.querySelector('.bg-img').style.backgroundImage = `url(${images[index]})`;
+    index = (index + 1) % images.length;
+  }
+  
+  setInterval(changeBgImage, 15000);
+</script>
+

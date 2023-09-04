@@ -1,0 +1,7139 @@
+
+<!doctype html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link rel="icon" href="https://lisanularabpare.com/assets/img/logo.png?t=1665883175" type="image/icon type">
+<title>TES TOAFL 16 OKTOBER 2022</title>
+
+<link href="https://lisanularabpare.com/student/assets/css/tabler.min.css" rel="stylesheet" />
+<link href="https://lisanularabpare.com/student/assets/css/tabler-flags.min.css" rel="stylesheet" />
+<link href="https://lisanularabpare.com/student/assets/css/tabler-payments.min.css" rel="stylesheet" />
+<link href="https://lisanularabpare.com/student/assets/css/tabler-vendors.min.css" rel="stylesheet" />
+<link href="https://lisanularabpare.com/student/assets/css/demo.min.css" rel="stylesheet" />
+<script src="https://lisanularabpare.com/student/assets/jquery/jquery-3.5.1.min.js"></script>
+<script src="https://lisanularabpare.com/student/assets/jquery/sweetalert2@9.js"></script>
+</head>
+<body class="antialiased" style="background-color: #265D5A">
+ <div class="page page-center" id="login">
+<div class="container-tight py-4">
+<div class="card">
+<div class="card-body">
+<div class="text-center mb-4">
+<a href="javascript:void()"><img src="https://lisanularabpare.com/assets/img/logo.png" height="80" alt=""></a>
+</div>
+<h2 class="card-title text-center mb-4">TES TOAFL 16 OKTOBER 2022</h2>
+<div class="mb-2">
+<label class="form-label">
+Password
+</label>
+<div class="input-group input-group-flat">
+<input type="password" name="password" class="form-control" placeholder="Password" autocomplete="off">
+<span class="input-group-text">
+<a href="javascript:void(0)" class="link-secondary" title="Show password" data-bs-toggle="tooltip">
+<svg width="24" height="24" id="showPassword">
+<use xlink:href="https://lisanularabpare.com/student/assets/tabler-icons-1.39.1/tabler-sprite.svg#tabler-eye" />
+</svg>
+<svg width="24" height="24" id="hidePassword" style="display:none">
+<use xlink:href="https://lisanularabpare.com/student/assets/tabler-icons-1.39.1/tabler-sprite.svg#tabler-eye-off" />
+</svg>
+</a>
+</span>
+</div>
+</div>
+<div class="form-footer">
+<button type="button" class="btn btn-primary w-100 btnSignIn">Masuk</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="soal_tes" style="display: none">
+<div class="wrapper" id="elementtoScrollToID">
+<div class="sticky-top">
+<header class="navbar navbar-expand-md navbar-light sticky-top d-print-none">
+<div class="container-xl">
+<h1 class="navbar-brand navbar-brand-autodark d-none-navbar-horizontal pe-0 pe-md-3">
+<a href="javascript:void(0)">
+<img src="https://lisanularabpare.com/assets/img/logo.png" width="24" height="24" alt="Tabler" class="navbar-brand-image">
+</a>
+</h1>
+<div class="navbar-nav flex-row order-md-last">
+<div class="nav-item dropdown d-md-flex ">
+<div>
+<svg width="20" height="20">
+<use xlink:href="https://lisanularabpare.com/student/assets/tabler-icons-1.39.1/tabler-sprite.svg#tabler-alarm" />
+</svg>
+<b><span id="waktu">145 Menit</span></b>
+</div>
+</div>
+</div>
+</div>
+</header> </div>
+<div class="page-wrapper" id="">
+<div class="page-body">
+<div class="container-xl">
+<div class="row row-cards FieldContainer" data-masonry='{"percentPosition": true }'>
+<form action="https://lisanularabpare.com/student/soal/add_jawaban_toefl" method="post" id="formSoal">
+<input type="hidden" name="id_tes" value="8d5e957f297893487bd98fa830fa6413">
+<div id="sesi-0">
+<div class="card mb-3">
+<div class="card-header">
+<h3 class="card-title">Data Diri</h3>
+</div>
+<div class="card-body">
+<div class="form-floating mb-3">
+<input type="text" name="email" class="form-control required">
+<label>Alamat Email</label>
+</div>
+<div class="form-floating mb-3">
+<input type="text" name="nama" class="form-control required">
+<label>Nama Lengkap</label>
+</div>
+<div class="form-floating mb-3">
+<input type="text" name="no_wa" class="form-control required">
+<label>No Whatsapp</label>
+</div>
+<div class="form-floating mb-3">
+<input type="text" name="t4_lahir" class="form-control required">
+<label>Tempat Lahir</label>
+</div>
+<div class="form-floating mb-3">
+<input type="date" name="tgl_lahir" class="form-control required">
+<label>Tgl Lahir</label>
+</div>
+<div class="form-floating mb-3">
+<textarea name="alamat" class="form-control required" data-bs-toggle="autosize"></textarea>
+<label for="" class="col-form-label">Alamat</label>
+</div>
+<div class="form-floating mb-3">
+<textarea name="alamat_pengiriman" class="form-control" data-bs-toggle="autosize"></textarea>
+<label for="" class="col-form-label">Alamat Pengiriman</label>
+<small id="emailHelp" class="form-text text-danger">Form Alamat pengiriman diisi jika memesan sertifikat</small>
+</div> </div>
+</div>
+<div class="mb-3">
+<div class="d-flex justify-content-end">
+<button type="button" class="btn btn-md btn-success btnNext" data-id="sesi-1">
+Next
+<svg width="20" height="20">
+<use xlink:href="https://lisanularabpare.com/student/assets/tabler-icons-1.39.1/tabler-sprite.svg#tabler-arrow-narrow-right" />
+</svg>
+</button>
+</div>
+</div>
+</div>
+<div id="sesi-1" style="display: none">
+<div class="form-floating mb-3">
+<select name="fontSize" class="form-control required">
+<option value="">Pilih Ukuran Tulisan</option>
+<option value="">Default</option>
+<option value="20px">20px</option>
+<option value="25px">25px</option>
+<option value="30px">30px</option>
+</select>
+<label>Ukuran Tulisan</label>
+</div>
+<div class="mb-3">
+
+<div class="d-flex justify-content-between">
+<button type="button" class="btn btn-md btn-success btnBack" data-id="sesi-0">
+<svg width="20" height="20">
+<use xlink:href="https://lisanularabpare.com/student/assets/tabler-icons-1.39.1/tabler-sprite.svg#tabler-arrow-narrow-left" />
+</svg>
+Back</button>
+<button type="button" class="btn btn-md btn-success btnNext" data-id="sesi-2">
+Next
+<svg width="20" height="20">
+<use xlink:href="https://lisanularabpare.com/student/assets/tabler-icons-1.39.1/tabler-sprite.svg#tabler-arrow-narrow-right" />
+</svg>
+</button>
+</div>
+</div>
+<input type="hidden" name="sesi-2" value="50">
+<input type="hidden" name="kunci_sesi[]" value="3">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-0">
+<div dir="rtl" class="mb-3">
+<p><center><b>إختبار اللغة العربية لغير الناطقين بها</b></center></p>
+<p><center><b>القسم الأول : فهم المسموع</b></center></p>
+<p>في هذا القسم 50 سؤالا تتكون من ثلاثة أنواع : التعبيرات، و الحوارات، و الفقرات:</p>
+<p>للإجابة عن الأسئلة من رقم واحد إلى رقم خمسة وعشرين، استمع إلى التعبيرات ثم اختر أنسب جواب بعد كل تعبير :</p></div>
+</div>
+ </div>
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-1">
+<center><audio controls controlsList="nodownload"><source src="https://lisanularabpare.com/assets/myaudio/21.mp3" type="audio/mpeg"></audio></center>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-2" id="jawaban_sesi_12" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-2">
+<div dir="rtl" class="mb-3"><p>١. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|2" name="radio-1[2]" value="هو يركب الدراجة النارية للذهاب إلى الجامعة">
+هو يركب الدراجة النارية للذهاب إلى الجامعة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|2" name="radio-1[2]" value="الدراجة النارية في الجامعة">
+الدراجة النارية في الجامعة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|2" name="radio-1[2]" value="هو لا يحب الدراجة النارية">
+هو لا يحب الدراجة النارية
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|2" name="radio-1[2]" value="هو لا يذهب بالدراجة النارية">
+هو لا يذهب بالدراجة النارية
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-3" id="jawaban_sesi_13" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-3">
+<div dir="rtl" class="mb-3"><p>٢. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|3" name="radio-1[3]" value="الصياد يسترحون">
+الصياد يسترحون
+</label>
+</div>
+ </div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|3" name="radio-1[3]" value="الصياد لا يسترحون">
+الصياد لا يسترحون
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|3" name="radio-1[3]" value="الصياد لا يريدون أن يصيدوا الأسماك">
+الصياد لا يريدون أن يصيدوا الأسماك
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|3" name="radio-1[3]" value="الأسماك غير موجودة في البحر">
+الأسماك غير موجودة في البحر
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-4" id="jawaban_sesi_14" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-4">
+<div dir="rtl" class="mb-3"><p>٣. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|4" name="radio-1[4]" value="إنها قوية">
+إنها قوية
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|4" name="radio-1[4]" value="إنها لطيفة">
+إنها لطيفة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|4" name="radio-1[4]" value="إنها ضعيفة">
+إنها ضعيفة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|4" name="radio-1[4]" value=" إنها صابرة">
+إنها صابرة
+</label>
+</div>
+</div>
+</div>
+</div>
+ </div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-5" id="jawaban_sesi_15" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-5">
+<div dir="rtl" class="mb-3"><p>٤. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|5" name="radio-1[5]" value="الطبيب">
+الطبيب
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|5" name="radio-1[5]" value="الصديق">
+الصديق
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|5" name="radio-1[5]" value="الأب">
+الأب
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+ <div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|5" name="radio-1[5]" value="المدرّس">
+المدرّس
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-6" id="jawaban_sesi_16" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-6">
+<div dir="rtl" class="mb-3"><p>٥. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|6" name="radio-1[6]" value="هو يريد الأفلام">
+هو يريد الأفلام
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|6" name="radio-1[6]" value="هو يشاهد الأفلام">
+هو يشاهد الأفلام
+</label>
+</div>
+</div>
+</div>
+ <div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|6" name="radio-1[6]" value="هو يريد أن يشاهد الأفلام مع صديقه">
+هو يريد أن يشاهد الأفلام مع صديقه
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|6" name="radio-1[6]" value="هو يريد يشاهد الأفلام">
+هو يريد يشاهد الأفلام
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-7">
+<center><audio controls controlsList="nodownload"><source src="https://lisanularabpare.com/assets/myaudio/22.mp3" type="audio/mpeg"></audio></center>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-8" id="jawaban_sesi_18" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-8">
+<div dir="rtl" class="mb-3"><p>٦. </p></div>
+ <div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|8" name="radio-1[8]" value="بعد صلاة الصبح">
+بعد صلاة الصبح
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|8" name="radio-1[8]" value="بعد صلاة العصر">
+بعد صلاة العصر
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|8" name="radio-1[8]" value="بعد صلاة المغرب">
+بعد صلاة المغرب
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|8" name="radio-1[8]" value="بعد صلاة العشاء">
+بعد صلاة العشاء
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-9" id="jawaban_sesi_19" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-9">
+<div dir="rtl" class="mb-3"><p>٧. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|9" name="radio-1[9]" value="في الساعة الواحدة">
+في الساعة الواحدة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|9" name="radio-1[9]" value="في الساعة الثانية">
+في الساعة الثانية
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|9" name="radio-1[9]" value="في الساعة الثالثة">
+في الساعة الثالثة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+ <label>
+<input type="radio" data-id="1|9" name="radio-1[9]" value="في الساعة الرابعة">
+في الساعة الرابعة
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-10" id="jawaban_sesi_110" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-10">
+<div dir="rtl" class="mb-3"><p>٨. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|10" name="radio-1[10]" value="أهمية النية">
+أهمية النية
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|10" name="radio-1[10]" value="أقسام النية">
+أقسام النية
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+ <div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|10" name="radio-1[10]" value="النية وترتيبها">
+النية وترتيبها
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|10" name="radio-1[10]" value="فوائد النية">
+فوائد النية
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-11" id="jawaban_sesi_111" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-11">
+<div dir="rtl" class="mb-3"><p>٩. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|11" name="radio-1[11]" value="كريم الأخلاق جزء من سعادة الناس">
+كريم الأخلاق جزء من سعادة الناس
+</label>
+</div>
+</div>
+</div>
+ <div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|11" name="radio-1[11]" value="سعادة الناس جزء من كريم الأخلاق">
+سعادة الناس جزء من كريم الأخلاق
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|11" name="radio-1[11]" value="سعادة الناس بدون الأخلاق">
+سعادة الناس بدون الأخلاق
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|11" name="radio-1[11]" value="الأخلاق الكريمة السعيدة">
+الأخلاق الكريمة السعيدة
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-12" id="jawaban_sesi_112" value="null">
+<div class="shadow card mb-3 soal">
+ <div class="card-body" id="soal-12">
+<div dir="rtl" class="mb-3"><p>١٠. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|12" name="radio-1[12]" value="في المطعم">
+في المطعم
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|12" name="radio-1[12]" value="في الفصل">
+في الفصل
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|12" name="radio-1[12]" value="في المستشفى">
+في المستشفى
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|12" name="radio-1[12]" value="في المكتبة">
+في المكتبة
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-13">
+<center><audio controls controlsList="nodownload"><source src="https://lisanularabpare.com/assets/myaudio/41.mp3" type="audio/mpeg"></audio></center>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-14" id="jawaban_sesi_114" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-14">
+<div dir="rtl" class="mb-3"><p>١١. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|14" name="radio-1[14]" value="ثلاثون جزءا">
+ثلاثون جزءا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|14" name="radio-1[14]" value="خمسة عشر جزءا">
+خمسة عشر جزءا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+ <input type="radio" data-id="1|14" name="radio-1[14]" value="خمسة أجزاء">
+خمسة أجزاء
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|14" name="radio-1[14]" value="جزءا واحدا">
+جزءا واحدا
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-15" id="jawaban_sesi_115" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-15">
+<div dir="rtl" class="mb-3"><p>١٢. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|15" name="radio-1[15]" value="ثلاثة أقلام">
+ثلاثة أقلام
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+ <label>
+<input type="radio" data-id="1|15" name="radio-1[15]" value="قلما واحدا">
+قلما واحدا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|15" name="radio-1[15]" value="ستة أقلام">
+ستة أقلام
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|15" name="radio-1[15]" value="قلمين">
+قلمين
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-16" id="jawaban_sesi_116" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-16">
+<div dir="rtl" class="mb-3"><p>١٣. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|16" name="radio-1[16]" value="لم أحضر لأني لدي أمر مهم في البيت">
+لم أحضر لأني لدي أمر مهم في البيت
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|16" name="radio-1[16]" value="أنا لم أحضر إلى السوق">
+أنا لم أحضر إلى السوق
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|16" name="radio-1[16]" value="السوق بعيد من بيتي">
+السوق بعيد من بيتي
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|16" name="radio-1[16]" value="لا، هو لا يريد أن يذهب إلى السوق">
+لا، هو لا يريد أن يذهب إلى السوق
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-17" id="jawaban_sesi_117" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-17">
+<div dir="rtl" class="mb-3"><p>١٤. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|17" name="radio-1[17]" value="معالجة المرضى">
+معالجة المرضى
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|17" name="radio-1[17]" value="مرافقة المرضى">
+مرافقة المرضى
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|17" name="radio-1[17]" value="نهي المرضى">
+نهي المرضى
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+ <input type="radio" data-id="1|17" name="radio-1[17]" value="ضرب المرضى">
+ضرب المرضى
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-18" id="jawaban_sesi_118" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-18">
+<div dir="rtl" class="mb-3"><p>١٥. </p> </div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|18" name="radio-1[18]" value="نصيحة الأستاذ لطلابه أن يتكاسلوا">
+نصيحة الأستاذ لطلابه أن يتكاسلوا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|18" name="radio-1[18]" value="نصيحة الأستاذ لطلابه أن لا يتكاسلوا">
+نصيحة الأستاذ لطلابه أن لا يتكاسلوا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|18" name="radio-1[18]" value="الأستاذ كسلان">
+الأستاذ كسلان
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|18" name="radio-1[18]" value="الأستاذ لا يتكاسل">
+الأستاذ لا يتكاسل
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-19">
+<center><audio controls controlsList="nodownload"><source src="https://lisanularabpare.com/assets/myaudio/24.mp3" type="audio/mpeg"></audio></center>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-20" id="jawaban_sesi_120" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-20">
+<div dir="rtl" class="mb-3"><p>١٦. </p> </div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|20" name="radio-1[20]" value="ست سنوات">
+ست سنوات
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|20" name="radio-1[20]" value="اثنتا عشرة سنة">
+اثنتا عشرة سنة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|20" name="radio-1[20]" value="ست عشرة سنة">
+ست عشرة سنة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|20" name="radio-1[20]" value="عشرون سنة">
+عشرون سنة
+ </label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-21" id="jawaban_sesi_121" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-21">
+<div dir="rtl" class="mb-3"><p>١٧. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|21" name="radio-1[21]" value="اللغة العربية في العصر العباسي">
+اللغة العربية في العصر العباسي
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|21" name="radio-1[21]" value="اللغة العربية لغة عالمية">
+اللغة العربية لغة عالمية
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|21" name="radio-1[21]" value="الحضارة الإسلامية">
+الحضارة الإسلامية
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|21" name="radio-1[21]" value="أهمية اللغة العربية">
+أهمية اللغة العربية
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-22" id="jawaban_sesi_122" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-22">
+<div dir="rtl" class="mb-3"><p>١٨. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|22" name="radio-1[22]" value="هو يشتري كتابا جديدا">
+هو يشتري كتابا جديدا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+ <label>
+<input type="radio" data-id="1|22" name="radio-1[22]" value="هو لا يشتري كتابا">
+هو لا يشتري كتابا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|22" name="radio-1[22]" value="هو يشتري كتابا واحدا">
+هو يشتري كتابا واحدا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|22" name="radio-1[22]" value="هو يشتري كتابا بالفلوس">
+هو يشتري كتابا بالفلوس
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-23" id="jawaban_sesi_123" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-23">
+<div dir="rtl" class="mb-3"><p>١٩. </p></div>
+<div class="mb-3">
+ <div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|23" name="radio-1[23]" value="في شهر مارس">
+في شهر مارس
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|23" name="radio-1[23]" value="في شهر فبراير">
+في شهر فبراير
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|23" name="radio-1[23]" value="في شهر ديسمبر">
+في شهر ديسمبر
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|23" name="radio-1[23]" value="في شهر يناير">
+في شهر يناير
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-24" id="jawaban_sesi_124" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-24">
+<div dir="rtl" class="mb-3"><p>٢٠. </p></div>
+ <div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|24" name="radio-1[24]" value="تجوز المرأة العمل كالرجال">
+تجوز المرأة العمل كالرجال
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|24" name="radio-1[24]" value="لا تجوز المرأة العمل خارج بيتها">
+لا تجوز المرأة العمل خارج بيتها
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|24" name="radio-1[24]" value="لا تجوز المرأة الخروج من بيتها">
+لا تجوز المرأة الخروج من بيتها
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|24" name="radio-1[24]" value="تجوز المرأة العمل كالرجال لكن بشرط">
+تجوز المرأة العمل كالرجال لكن بشرط
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-25">
+<center><audio controls controlsList="nodownload"><source src="https://lisanularabpare.com/assets/myaudio/25.mp3" type="audio/mpeg"></audio></center>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-26" id="jawaban_sesi_126" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-26">
+<div dir="rtl" class="mb-3"><p>٢١. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|26" name="radio-1[26]" value="الأم">
+الأم
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|26" name="radio-1[26]" value="الأب">
+الأب
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+ <input type="radio" data-id="1|26" name="radio-1[26]" value="الإبن">
+الإبن
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|26" name="radio-1[26]" value="العم">
+العم
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-27" id="jawaban_sesi_127" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-27">
+<div dir="rtl" class="mb-3"><p>٢٢. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|27" name="radio-1[27]" value="هو طبيب كريم">
+هو طبيب كريم
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+ <input type="radio" data-id="1|27" name="radio-1[27]" value="هو أستاذ كريم">
+هو أستاذ كريم
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|27" name="radio-1[27]" value="هو تاجر غني">
+هو تاجر غني
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|27" name="radio-1[27]" value="هو عامل كريم">
+هو عامل كريم
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-28" id="jawaban_sesi_128" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-28">
+<div dir="rtl" class="mb-3"><p>٢٣. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+ <label>
+<input type="radio" data-id="1|28" name="radio-1[28]" value="يوما واحدا">
+يوما واحدا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|28" name="radio-1[28]" value="عشرين يوما">
+عشرين يوما
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|28" name="radio-1[28]" value="ثلاثين يوما">
+ثلاثين يوما
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|28" name="radio-1[28]" value="خمسة وعشرين يوما">
+خمسة وعشرين يوما
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-29" id="jawaban_sesi_129" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-29">
+<div dir="rtl" class="mb-3"><p>٢٤. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|29" name="radio-1[29]" value="يدرس بجاكرتا">
+يدرس بجاكرتا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|29" name="radio-1[29]" value="يدرس بسورابايا">
+يدرس بسورابايا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|29" name="radio-1[29]" value="يدرس بمصر">
+يدرس بمصر
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|29" name="radio-1[29]" value="يدرس بيوكجاكرتا">
+يدرس بيوكجاكرتا
+ </label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-30" id="jawaban_sesi_130" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-30">
+<div dir="rtl" class="mb-3"><p>٢٥. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|30" name="radio-1[30]" value="نال الهدية للعمرة بسبب جماله">
+نال الهدية للعمرة بسبب جماله
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|30" name="radio-1[30]" value="نال الهدية للعمرة بسبب ذكائه">
+نال الهدية للعمرة بسبب ذكائه
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+ <input type="radio" data-id="1|30" name="radio-1[30]" value="نال الهدية للعمرة بسبب نجاحه">
+نال الهدية للعمرة بسبب نجاحه
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|30" name="radio-1[30]" value="نال الهدية للعمرة بسبب والديه">
+نال الهدية للعمرة بسبب والديه
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-31">
+<div dir="rtl" class="mb-3">
+<p>للإجابة عن الأسئلة من رقم ستة وعشرين إلى رقم ثلاثين، استمع إلى الحوار الآتي، الآتية ثم اختر أنسب جواب من الإختيارات المتعددة المتاحة بعده:</p></div>
+</div>
+</div>
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-32">
+<center><audio controls controlsList="nodownload"><source src="https://lisanularabpare.com/assets/myaudio/26.mp3" type="audio/mpeg"></audio></center>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-33" id="jawaban_sesi_133" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-33">
+<div dir="rtl" class="mb-3"><p>٢٦. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|33" name="radio-1[33]" value="ينتهي بعد شهرين">
+ينتهي بعد شهرين
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|33" name="radio-1[33]" value="ينتهي بعد شهر">
+ينتهي بعد شهر
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|33" name="radio-1[33]" value="ينتهي بعد ثلاثة أشهر">
+ينتهي بعد ثلاثة أشهر
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|33" name="radio-1[33]" value="ينتهي بعد أربعة أشهر">
+ينتهي بعد أربعة أشهر
+</label>
+</div>
+</div>
+ </div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-34" id="jawaban_sesi_134" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-34">
+<div dir="rtl" class="mb-3"><p>٢٧. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|34" name="radio-1[34]" value="مدّة الاشتراك سنة واحدة">
+مدّة الاشتراك سنة واحدة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|34" name="radio-1[34]" value="في البيت مدّة الاشتراك سنتين">
+في البيت مدّة الاشتراك سنتين
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|34" name="radio-1[34]" value="الجامعة مدّة الاشتراك ثلاث سنوات">
+الجامعة مدّة الاشتراك ثلاث سنوات
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|34" name="radio-1[34]" value="مدّة الاشتراك أربع سنوات">
+مدّة الاشتراك أربع سنوات
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-35" id="jawaban_sesi_135" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-35">
+<div dir="rtl" class="mb-3"><p>٢٨. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|35" name="radio-1[35]" value="عند شركة الدراجة">
+عند شركة الدراجة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+ <input type="radio" data-id="1|35" name="radio-1[35]" value="عند شركة الكهرباء">
+عند شركة الكهرباء
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|35" name="radio-1[35]" value="عند شركة السيارة">
+عند شركة السيارة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|35" name="radio-1[35]" value="عند شركة الهاتف المحمول">
+عند شركة الهاتف المحمول
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-36" id="jawaban_sesi_136" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-36">
+<div dir="rtl" class="mb-3"><p>٢٩. </p></div>
+<div class="mb-3">
+<div class="form-check">
+ <div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|36" name="radio-1[36]" value="بثمن رخيص">
+بثمن رخيص
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|36" name="radio-1[36]" value="بثمن غال">
+بثمن غال
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|36" name="radio-1[36]" value="بدون ثمن">
+بدون ثمن
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|36" name="radio-1[36]" value="بثمن كمايريد">
+بثمن كمايريد
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-37" id="jawaban_sesi_137" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-37">
+<div dir="rtl" class="mb-3"><p>٣٠. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|37" name="radio-1[37]" value="أسمار">
+أسمار
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|37" name="radio-1[37]" value="أثمان">
+أثمان
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|37" name="radio-1[37]" value="ثامنية">
+ثامنية
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|37" name="radio-1[37]" value="ثمينة">
+ثمينة
+</label>
+ </div>
+</div>
+</div>
+</div>
+</div>
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-38">
+<div dir="rtl" class="mb-3">
+<p>للإجابة عن الأسئلة من رقم واحد وثلاثين إلى رقم خمسة وثلاثين ، استمع إلى القراءة الآتية ثم اختر أنسب جواب من الإختيارات المتعددة المتاحة بعده:</p></div>
+</div>
+</div>
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-39">
+<center><audio controls controlsList="nodownload"><source src="https://lisanularabpare.com/assets/myaudio/27.mp3" type="audio/mpeg"></audio></center>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-40" id="jawaban_sesi_140" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-40">
+<div dir="rtl" class="mb-3"><p>٣١. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|40" name="radio-1[40]" value="بالحافلة">
+بالحافلة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|40" name="radio-1[40]" value="مشيا على الأقدام">
+مشيا على الأقدام
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|40" name="radio-1[40]" value="بالدرّاجة">
+بالدرّاجة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|40" name="radio-1[40]" value="بالسيّارة">
+بالسيّارة
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-41" id="jawaban_sesi_141" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-41">
+
+<div dir="rtl" class="mb-3"><p>٣٢. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|41" name="radio-1[41]" value="مؤسّسات صناعيّة">
+مؤسّسات صناعيّة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|41" name="radio-1[41]" value="زراعيّة تابعة للحكومة">
+زراعيّة تابعة للحكومة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|41" name="radio-1[41]" value="القطاع الخاصّ">
+القطاع الخاصّ
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|41" name="radio-1[41]" value="مساجد">
+مساجد
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+ <input type="hidden" name="jawaban_sesi_1[]" data-id="soal-42" id="jawaban_sesi_142" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-42">
+<div dir="rtl" class="mb-3"><p>٣٣. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|42" name="radio-1[42]" value="للدراسة في المدرسة">
+للدراسة في المدرسة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|42" name="radio-1[42]" value="للدراسة في الجامعة">
+للدراسة في الجامعة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|42" name="radio-1[42]" value="للتجارة">
+للتجارة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+ <div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|42" name="radio-1[42]" value="لإعطاء الآخرين">
+لإعطاء الآخرين
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-43" id="jawaban_sesi_143" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-43">
+<div dir="rtl" class="mb-3"><p>٣٤. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|43" name="radio-1[43]" value="في البنك">
+في البنك
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|43" name="radio-1[43]" value="في المقهى">
+في المقهى
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+ <div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|43" name="radio-1[43]" value="في المسجد">
+في المسجد
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|43" name="radio-1[43]" value="في البيت">
+في البيت
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-44" id="jawaban_sesi_144" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-44">
+<div dir="rtl" class="mb-3"><p>٣٥. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|44" name="radio-1[44]" value="لونها سوداء">
+لونها سوداء
+</label>
+</div>
+</div>
+</div>
+ <div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|44" name="radio-1[44]" value="لونها حمراء">
+لونها حمراء
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|44" name="radio-1[44]" value="لونها سمراء">
+لونها سمراء
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|44" name="radio-1[44]" value="لونها بيضاء">
+لونها بيضاء
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-45">
+<div dir="rtl" class="mb-3">
+<p>للإجابة عن الأسئلة من رقم ستة وثلاثين إلى أربعين، استمع إلى الحوار الآتي ثم اختر أنسب جواب من الإختيارات المتعددة المتاحة بعده:</p></div>
+</div>
+</div>
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-46">
+<center><audio controls controlsList="nodownload"><source src="https://lisanularabpare.com/assets/myaudio/28.mp3" type="audio/mpeg"></audio></center>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-47" id="jawaban_sesi_147" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-47">
+<div dir="rtl" class="mb-3"><p>٣٦. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|47" name="radio-1[47]" value="نفران">
+نفران
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|47" name="radio-1[47]" value="ثلاثة أنفار">
+ثلاثة أنفار
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|47" name="radio-1[47]" value="أربعة أنفار">
+أربعة أنفار
+</label>
+ </div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|47" name="radio-1[47]" value="خمسة أنفار">
+خمسة أنفار
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-48" id="jawaban_sesi_148" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-48">
+<div dir="rtl" class="mb-3"><p>٣٧. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|48" name="radio-1[48]" value="في الفندق">
+في الفندق
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|48" name="radio-1[48]" value="في المكتبة">
+في المكتبة
+ </label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|48" name="radio-1[48]" value="في الطائرة">
+في الطائرة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|48" name="radio-1[48]" value="في السوق">
+في السوق
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-49" id="jawaban_sesi_149" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-49">
+<div dir="rtl" class="mb-3"><p>٣٨. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|49" name="radio-1[49]" value="عشرون ب">
+ عشرون ب
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|49" name="radio-1[49]" value="ثلاثون هـ">
+ثلاثون هـ
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|49" name="radio-1[49]" value="ثلاثون ب">
+ثلاثون ب
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|49" name="radio-1[49]" value="عشرون هـ">
+عشرون هـ
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-50" id="jawaban_sesi_150" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-50">
+<div dir="rtl" class="mb-3"><p>٣٩. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|50" name="radio-1[50]" value="مضيفة">
+مضيفة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|50" name="radio-1[50]" value="طيارة">
+طيارة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|50" name="radio-1[50]" value="سائقة">
+سائقة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|50" name="radio-1[50]" value="لاعبة">
+لاعبة
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+ <input type="hidden" name="jawaban_sesi_1[]" data-id="soal-51" id="jawaban_sesi_151" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-51">
+<div dir="rtl" class="mb-3"><p>٤٠. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|51" name="radio-1[51]" value="هم داخل الطائرة">
+هم داخل الطائرة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|51" name="radio-1[51]" value="هم في مكان الانتظار">
+هم في مكان الانتظار
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|51" name="radio-1[51]" value="هم خارج الطائرة">
+هم خارج الطائرة
+</label>
+</div>
+</div>
+</div>
+ <div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|51" name="radio-1[51]" value="هم في الملعب">
+هم في الملعب
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-52">
+<div dir="rtl" class="mb-3">
+<p>للإجابة عن الأسئلة من رقم واحد وأربعين إلى خمسة وأربعين، استمع إلى القراءة الآتية ثم اختر أنسب جواب من الإختيارات المتعددة المتاحة بعده:</p></div>
+</div>
+</div>
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-53">
+<center><audio controls controlsList="nodownload"><source src="https://lisanularabpare.com/assets/myaudio/39.mp3" type="audio/mpeg"></audio></center>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-54" id="jawaban_sesi_154" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-54">
+<div dir="rtl" class="mb-3"><p>٤١. </p></div>
+<div class="mb-3">
+<div class="form-check">
+ <div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|54" name="radio-1[54]" value="منافع التدخين">
+منافع التدخين
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|54" name="radio-1[54]" value="أضرار التدخين">
+أضرار التدخين
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|54" name="radio-1[54]" value="آثار التدخين">
+آثار التدخين
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|54" name="radio-1[54]" value="العادة في التدخين">
+العادة في التدخين
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-55" id="jawaban_sesi_155" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-55">
+<div dir="rtl" class="mb-3"><p>٤٢. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|55" name="radio-1[55]" value="إن التدخين يسبب إلى كثير من الأمراض">
+إن التدخين يسبب إلى كثير من الأمراض
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|55" name="radio-1[55]" value="إن التدخين يسبب إلى أمراض القلب">
+إن التدخين يسبب إلى أمراض القلب
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|55" name="radio-1[55]" value="إن التدخين يسبب إلى الصحة">
+إن التدخين يسبب إلى الصحة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|55" name="radio-1[55]" value="أن التدخين يؤثر إلى المشكلات الصحية">
+أن التدخين يؤثر إلى المشكلات الصحية
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-56" id="jawaban_sesi_156" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-56">
+<div dir="rtl" class="mb-3"><p>٤٣. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|56" name="radio-1[56]" value="أمراض الحكة">
+أمراض الحكة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|56" name="radio-1[56]" value="أمراض القلب">
+أمراض القلب
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|56" name="radio-1[56]" value="أمراض الروح">
+أمراض الروح
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|56" name="radio-1[56]" value="أمراض الفكرة">
+أمراض الفكرة
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-57" id="jawaban_sesi_157" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-57">
+<div dir="rtl" class="mb-3"><p>٤٤. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|57" name="radio-1[57]" value="ينبغي علينا أن ندخن قليلا">
+ينبغي علينا أن ندخن قليلا
+</label>
+</div>
+</div>
+</div>
+ <div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|57" name="radio-1[57]" value="ينبغي علينا أن ندخن كثيرا">
+ينبغي علينا أن ندخن كثيرا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|57" name="radio-1[57]" value="ينبغي علينا أن ندخن ولو كان قليلا">
+ينبغي علينا أن ندخن ولو كان قليلا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|57" name="radio-1[57]" value="ينبغي علينا أن لا ندخن ولو كان قليلا">
+ينبغي علينا أن لا ندخن ولو كان قليلا
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-58" id="jawaban_sesi_158" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-58">
+<div dir="rtl" class="mb-3"><p>٤٥. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|58" name="radio-1[58]" value="يحث علينا أن نفعل شيئا يضر علينا">
+يحث علينا أن نفعل شيئا يضر علينا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|58" name="radio-1[58]" value="يحث علينا أن لا نفعل شيئا يضر علينا">
+يحث علينا أن لا نفعل شيئا يضر علينا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|58" name="radio-1[58]" value="يحث علينا أن نفعل شيئا ينفع علينا">
+يحث علينا أن نفعل شيئا ينفع علينا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|58" name="radio-1[58]" value="يحث علينا أن نفعل شيئا لا ينفع علينا">
+يحث علينا أن نفعل شيئا لا ينفع علينا
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-59">
+<div dir="rtl" class="mb-3">
+<p>للإجابة عن الأسئلة من رقم ستة وأربعين إلى خمسين، استمع إلى الحوار الآتي ثم اختر أنسب جواب من الإختيارات المتعددة المتاحة بعده:</p></div>
+</div>
+</div>
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-60">
+<center><audio controls controlsList="nodownload"><source src="https://lisanularabpare.com/assets/myaudio/40.mp3" type="audio/mpeg"></audio></center>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-61" id="jawaban_sesi_161" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-61">
+<div dir="rtl" class="mb-3"><p>٤٦. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|61" name="radio-1[61]" value="في البيت">
+في البيت
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|61" name="radio-1[61]" value="في المطعم">
+في المطعم
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|61" name="radio-1[61]" value="في المقصف">
+في المقصف
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|61" name="radio-1[61]" value="في المطبخ">
+في المطبخ
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-62" id="jawaban_sesi_162" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-62">
+<div dir="rtl" class="mb-3"><p>٤٧. </p></div>
+ <div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|62" name="radio-1[62]" value="في الصباح">
+في الصباح
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|62" name="radio-1[62]" value="في النهار">
+في النهار
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|62" name="radio-1[62]" value="في المساء">
+في المساء
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|62" name="radio-1[62]" value="في الليل">
+في الليل
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-63" id="jawaban_sesi_163" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-63">
+<div dir="rtl" class="mb-3"><p>٤٨. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|63" name="radio-1[63]" value="الدجاجة المقلية">
+الدجاجة المقلية
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|63" name="radio-1[63]" value="البيض المغلي">
+البيض المغلي
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|63" name="radio-1[63]" value="الأطعمة السريعة">
+الأطعمة السريعة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+ <input type="radio" data-id="1|63" name="radio-1[63]" value="الفواكه">
+الفواكه
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-64" id="jawaban_sesi_164" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-64">
+<div dir="rtl" class="mb-3"><p>٤٩. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|64" name="radio-1[64]" value="سيارة الركاب">
+سيارة الركاب
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|64" name="radio-1[64]" value="سيارة الإسعاف">
+سيارة الإسعاف
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+ <label>
+<input type="radio" data-id="1|64" name="radio-1[64]" value="الدراجة النارية">
+الدراجة النارية
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|64" name="radio-1[64]" value="الحافلة">
+الحافلة
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_1[]" data-id="soal-65" id="jawaban_sesi_165" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-65">
+<div dir="rtl" class="mb-3"><p>٥٠. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|65" name="radio-1[65]" value="نفران">
+نفران
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+ <div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|65" name="radio-1[65]" value="ثلاثة أنفار">
+ثلاثة أنفار
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|65" name="radio-1[65]" value="أربعة أنفار">
+أربعة أنفار
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="1|65" name="radio-1[65]" value="خمسة أنفار">
+خمسة أنفار
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="mb-3">
+
+<div class="d-flex justify-content-between">
+<button type="button" class="btn btn-md btn-success btnBack" data-id="sesi-0">
+<svg width="20" height="20">
+<use xlink:href="https://lisanularabpare.com/student/assets/tabler-icons-1.39.1/tabler-sprite.svg#tabler-arrow-narrow-left" />
+</svg>
+Back</button>
+<button type="button" class="btn btn-md btn-success btnNext" data-id="sesi-2">
+Next
+<svg width="20" height="20">
+<use xlink:href="https://lisanularabpare.com/student/assets/tabler-icons-1.39.1/tabler-sprite.svg#tabler-arrow-narrow-right" />
+</svg>
+ </button>
+</div>
+</div>
+</div>
+<div id="sesi-2" style="display: none">
+<div class="form-floating mb-3">
+<select name="fontSize" class="form-control required">
+<option value="">Pilih Ukuran Tulisan</option>
+<option value="">Default</option>
+<option value="20px">20px</option>
+<option value="25px">25px</option>
+<option value="30px">30px</option>
+</select>
+<label>Ukuran Tulisan</label>
+</div>
+<div class="mb-3">
+
+<div class="d-flex justify-content-end">
+<button type="button" class="btn btn-md btn-success btnNext" data-id="sesi-3">
+Next
+<svg width="20" height="20">
+<use xlink:href="https://lisanularabpare.com/student/assets/tabler-icons-1.39.1/tabler-sprite.svg#tabler-arrow-narrow-right" />
+</svg>
+</button>
+</div>
+</div>
+<input type="hidden" name="sesi-3" value="40">
+<input type="hidden" name="kunci_sesi[]" value="13">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-0">
+<div dir="rtl" class="mb-3">
+القسم الثاني : فهم التراكيب والتعبيرات</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-1" id="jawaban_sesi_21" value="null">
+<div class="shadow card mb-3 soal">
+ <div class="card-body" id="soal-1">
+<div dir="rtl" class="mb-3"><p>١. عمل محمد ليلا ونهارا من .... أن يذيق أولاده طعم التعليم.</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|1" name="radio-2[1]" value="أجل">
+أجل
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|1" name="radio-2[1]" value="ثم">
+ثم
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|1" name="radio-2[1]" value="ناحية">
+ناحية
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|1" name="radio-2[1]" value="رغم">
+رغم
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+ <input type="hidden" name="jawaban_sesi_2[]" data-id="soal-2" id="jawaban_sesi_22" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-2">
+<div dir="rtl" class="mb-3"><p>٢. جاء زملائك متأخرين. ما المفرد من كلمة "زملاء" ...</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|2" name="radio-2[2]" value="زملة">
+زملة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|2" name="radio-2[2]" value="زمل">
+زمل
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|2" name="radio-2[2]" value="زميل">
+زميل
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+ <div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|2" name="radio-2[2]" value="زميلة">
+زميلة
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-3" id="jawaban_sesi_23" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-3">
+<div dir="rtl" class="mb-3"><p>٣. جاء زملائك متأخرين. ما المرادف من كلمة "زملاء" ...</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|3" name="radio-2[3]" value="أعداء">
+أعداء
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|3" name="radio-2[3]" value="أصدقاء">
+أصدقاء
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+ <div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|3" name="radio-2[3]" value="أولاد">
+أولاد
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|3" name="radio-2[3]" value="أبناء">
+أبناء
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-4" id="jawaban_sesi_24" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-4">
+<div dir="rtl" class="mb-3"><p>٤. ضافر محمد إلى ألمانيا يوم الخميس. كلمة "يوم" في الجملة السابقة....</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|4" name="radio-2[4]" value="منصوب">
+منصوب
+</label>
+</div>
+</div>
+ </div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|4" name="radio-2[4]" value="مجرور">
+مجرور
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|4" name="radio-2[4]" value="مرفوع">
+مرفوع
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|4" name="radio-2[4]" value="مجزوم">
+مجزوم
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-5" id="jawaban_sesi_25" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-5">
+ <div dir="rtl" class="mb-3"><p>٥. المعلم : متى تستيقظين يا ليلى ؟<br>ليلى : أستيقظ في .... صباحا</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|5" name="radio-2[5]" value="الساعة الثلثة">
+الساعة الثلثة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|5" name="radio-2[5]" value="الساعة الثلث">
+الساعة الثلث
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|5" name="radio-2[5]" value="الساعة ثالثة">
+الساعة ثالثة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|5" name="radio-2[5]" value="الساعة الثالثة">
+الساعة الثالثة
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+ <input type="hidden" name="jawaban_sesi_2[]" data-id="soal-6" id="jawaban_sesi_26" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-6">
+<div dir="rtl" class="mb-3"><p>٦. سنبدأ العام الدراسي .... في الشهر يولي.</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|6" name="radio-2[6]" value="جديد">
+جديد
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|6" name="radio-2[6]" value="جديدة">
+جديدة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|6" name="radio-2[6]" value="الجديد">
+الجديد
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+ <div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|6" name="radio-2[6]" value="الجديدة">
+الجديدة
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-7" id="jawaban_sesi_27" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-7">
+<div dir="rtl" class="mb-3"><p>٧. هناك المباراة بين نادي برسيلون و نادي أرسينال في التلفاز. ما المراد بكلمة " المبارة" ...</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|7" name="radio-2[7]" value="الملعب">
+الملعب
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|7" name="radio-2[7]" value="المصاحبة">
+المصاحبة
+</label>
+</div>
+</div>
+</div>
+ <div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|7" name="radio-2[7]" value="المسابقة">
+المسابقة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|7" name="radio-2[7]" value="اللعاب">
+اللعاب
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-8" id="jawaban_sesi_28" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-8">
+<div dir="rtl" class="mb-3"><p>٨. أعلنت الحكومة قبل قليل أن غدا عيد الفطر. كلمة "قبل" ...</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|8" name="radio-2[8]" value="مرفوع">
+مرفوع
+</label>
+</div>
+ </div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|8" name="radio-2[8]" value="منصوب">
+منصوب
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|8" name="radio-2[8]" value="مجرور">
+مجرور
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|8" name="radio-2[8]" value="مجزوم ">
+مجزوم
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-9" id="jawaban_sesi_29" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-9">
+
+<div dir="rtl" class="mb-3"><p>٩. عرفنا أن سليمة <u>طالبة</u> <u>مجتهدة</u> و<u>ماهر</u> في هذه <u>الجامعة</u>. إين الكلمة الخاطئة في هذه الجملة؟ </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|9" name="radio-2[9]" value="طالبة">
+طالبة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|9" name="radio-2[9]" value="مجتهدة">
+مجتهدة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|9" name="radio-2[9]" value="ماهر">
+ماهر
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|9" name="radio-2[9]" value="الجامعة">
+الجامعة
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+ <input type="hidden" name="jawaban_sesi_2[]" data-id="soal-10" id="jawaban_sesi_210" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-10">
+<div dir="rtl" class="mb-3"><p>١٠. احتفل المسلمون ليلة نزول القرآن في اليوم السابع عشر من شهر رمضان. كلمة "رمضان" ....</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|10" name="radio-2[10]" value="رمضانُ">
+رمضانُ
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|10" name="radio-2[10]" value="رمضانَ">
+رمضانَ
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|10" name="radio-2[10]" value="رمضانِ">
+رمضانِ
+</label>
+</div>
+</div>
+</div>
+ <div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|10" name="radio-2[10]" value="رمضانْ">
+رمضانْ
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-11" id="jawaban_sesi_211" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-11">
+<div dir="rtl" class="mb-3"><p>١١. ينزل المطر غزيرا. المراد بكلمة "غزيرا"...</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|11" name="radio-2[11]" value="رذاذا">
+رذاذا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|11" name="radio-2[11]" value="خفيفا">
+خفيفا
+</label>
+</div>
+</div>
+ </div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|11" name="radio-2[11]" value="شديدا">
+شديدا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|11" name="radio-2[11]" value="قويا">
+قويا
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-12" id="jawaban_sesi_212" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-12">
+<div dir="rtl" class="mb-3"><p>١٢. المسلمون ..... في المسجد.</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|12" name="radio-2[12]" value="يصلي">
+يصلي
+</label>
+</div>
+ </div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|12" name="radio-2[12]" value="تصلي">
+تصلي
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|12" name="radio-2[12]" value="تصلون">
+تصلون
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|12" name="radio-2[12]" value="يصلون">
+يصلون
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-13" id="jawaban_sesi_213" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-13">
+
+<div dir="rtl" class="mb-3"><p>١٣. قام الرجل قيام الشرطي. نفهم من الجملة أن كلمة "قيام" ....</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|13" name="radio-2[13]" value="مفعول لأجله">
+مفعول لأجله
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|13" name="radio-2[13]" value="مفعول مطلق">
+مفعول مطلق
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|13" name="radio-2[13]" value="مفعول معه">
+مفعول معه
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|13" name="radio-2[13]" value="مفعول فيه">
+مفعول فيه
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+ <input type="hidden" name="jawaban_sesi_2[]" data-id="soal-14" id="jawaban_sesi_214" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-14">
+<div dir="rtl" class="mb-3"><p>١٤. الإنسان يتنفس .... الرئتين، وكذالك بعض الحيونات. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|14" name="radio-2[14]" value="على">
+على
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|14" name="radio-2[14]" value="مع">
+مع
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|14" name="radio-2[14]" value="ب">
+ب
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+ <div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|14" name="radio-2[14]" value="عبر">
+عبر
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-15" id="jawaban_sesi_215" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-15">
+<div dir="rtl" class="mb-3"><p>١٥. في القرآن ثلاثون ....</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|15" name="radio-2[15]" value="أجزاءٍ">
+أجزاءٍ
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|15" name="radio-2[15]" value="جزءٍ">
+جزءٍ
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+ <div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|15" name="radio-2[15]" value="أجزاءًا">
+أجزاءًا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|15" name="radio-2[15]" value="جزءًا">
+جزءًا
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-16" id="jawaban_sesi_216" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-16">
+<div dir="rtl" class="mb-3"><p>١٦. فسوف .... الرياضية غدا.</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|16" name="radio-2[16]" value="أُدرس">
+أُدرس
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|16" name="radio-2[16]" value="تدرسين">
+تدرسين
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|16" name="radio-2[16]" value="درست">
+درست
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|16" name="radio-2[16]" value="درسنا">
+درسنا
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-17" id="jawaban_sesi_217" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-17">
+<div dir="rtl" class="mb-3"><p>١٧. إن المسلمين إخوة. الخبر في هذه الجملة ؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|17" name="radio-2[17]" value="إن">
+إن
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|17" name="radio-2[17]" value="المسلمين">
+المسلمين
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|17" name="radio-2[17]" value="إخوة">
+إخوة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|17" name="radio-2[17]" value="كل الإجابة خاطئة">
+كل الإجابة خاطئة
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-18" id="jawaban_sesi_218" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-18">
+<div dir="rtl" class="mb-3"><p>١٨. انتظرنا نصف الساعة ولكن الأستاذ لم يأت بعد. كلمة "بعد" في الجملة السابقة..</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|18" name="radio-2[18]" value="بعدَ">
+بعدَ
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|18" name="radio-2[18]" value="بعدُ">
+بعدُ
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|18" name="radio-2[18]" value="بعدِ">
+بعدِ
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|18" name="radio-2[18]" value="بعدْ">
+بعدْ
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-19" id="jawaban_sesi_219" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-19">
+<div dir="rtl" class="mb-3"><p>١٩. إذا غفلت .... ذكر الله يقسو قلبك شيئا فشيئا. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|19" name="radio-2[19]" value="على">
+على
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|19" name="radio-2[19]" value="عن">
+عن
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|19" name="radio-2[19]" value="من">
+من
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|19" name="radio-2[19]" value="ب">
+ب
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-20" id="jawaban_sesi_220" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-20">
+<div dir="rtl" class="mb-3"><p>٢٠. اقتبس هذه المقالة .... آية القرآن.</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|20" name="radio-2[20]" value="على">
+على
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+ <div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|20" name="radio-2[20]" value="عن">
+عن
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|20" name="radio-2[20]" value="من">
+من
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|20" name="radio-2[20]" value="ب">
+ب
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-21" id="jawaban_sesi_221" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-21">
+<div dir="rtl" class="mb-3"><p>٢١. كان رسول الله رجلا شجاعا. عرفنا من الجملة السابقة أن كلمة "رسول"...</p></div>
+<div class="mb-3">
+ <div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|21" name="radio-2[21]" value="مبتدأ">
+مبتدأ
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|21" name="radio-2[21]" value="خبر كان">
+خبر كان
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|21" name="radio-2[21]" value="مصدر مؤول">
+مصدر مؤول
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|21" name="radio-2[21]" value="اسم كان">
+اسم كان
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-22" id="jawaban_sesi_222" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-22">
+<div dir="rtl" class="mb-3"><p>٢٢. في البستان أعشاب وأشجار كثيرة. ما المفرد من كلمة "أعشاب" ...؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|22" name="radio-2[22]" value="أشب">
+أشب
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|22" name="radio-2[22]" value="أعش">
+أعش
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|22" name="radio-2[22]" value="عشبأ">
+عشبأ
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|22" name="radio-2[22]" value="عشب">
+ عشب
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-23" id="jawaban_sesi_223" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-23">
+<div dir="rtl" class="mb-3"><p>٢٣. قام الحاضرون بحضور الشيخ احتراما له. كلمة احتراما هي؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|23" name="radio-2[23]" value="مفعول به">
+مفعول به
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|23" name="radio-2[23]" value="حال">
+حال
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+ <input type="radio" data-id="2|23" name="radio-2[23]" value="مفعول لأجله">
+مفعول لأجله
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|23" name="radio-2[23]" value="تمييز">
+تمييز
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-24" id="jawaban_sesi_224" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-24">
+<div dir="rtl" class="mb-3"><p>٢٤. هذه الفتاة حزينة بسبب فقدان الدراجة. الفتاة في هذه الجملة هي؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|24" name="radio-2[24]" value="اسم الإشارة">
+اسم الإشارة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+ <div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|24" name="radio-2[24]" value="خبر">
+خبر
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|24" name="radio-2[24]" value="مشار إليه">
+مشار إليه
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|24" name="radio-2[24]" value="مفعول به">
+مفعول به
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-25" id="jawaban_sesi_225" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-25">
+<div dir="rtl" class="mb-3"><p>٢٥. ذهب رجل عطشان إلى المقهى. كلمة "عطشان" في الجملة السابقة؟</p></div>
+<div class="mb-3">
+ <div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|25" name="radio-2[25]" value="مرفوع بالضمة">
+مرفوع بالضمة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|25" name="radio-2[25]" value="منصوب بالفتحة">
+منصوب بالفتحة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|25" name="radio-2[25]" value="مجرور بالكسرة">
+مجرور بالكسرة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|25" name="radio-2[25]" value="مجرور بالفتحة">
+مجرور بالفتحة
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-26" id="jawaban_sesi_226" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-26">
+<div dir="rtl" class="mb-3"><p>٢٦. يذهب – صباحا – السوق – و- مساء –إلى – التاجر – يرجع</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|26" name="radio-2[26]" value="يرجع التاجر صباحا ويذهب صباحا و إلى السوق">
+يرجع التاجر صباحا ويذهب صباحا و إلى السوق
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|26" name="radio-2[26]" value="يذهب التاجر يرجع إلى السوق صباحا ومساء">
+يذهب التاجر يرجع إلى السوق صباحا ومساء
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|26" name="radio-2[26]" value="يرجع التاجر مساء وإلى السوق يذهب صباحا">
+يرجع التاجر مساء وإلى السوق يذهب صباحا
+</label>
+</div>
+</div>
+</div>
+ <div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|26" name="radio-2[26]" value="يذهب التاجر إلى السوق صباحا ويرجع مساء">
+يذهب التاجر إلى السوق صباحا ويرجع مساء
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-27" id="jawaban_sesi_227" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-27">
+<div dir="rtl" class="mb-3"><p>٢٧. أحب ما تحب من الأشياء. حرف "ما"....</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|27" name="radio-2[27]" value="النافي">
+النافي
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|27" name="radio-2[27]" value="الموصولة">
+الموصولة
+</label>
+ </div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|27" name="radio-2[27]" value="الاستفهام">
+الاستفهام
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|27" name="radio-2[27]" value="الابتدائية">
+الابتدائية
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-28" id="jawaban_sesi_228" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-28">
+<div dir="rtl" class="mb-3"><p>٢٨. المدرس : أليس محمد غائب ؟ <br> الطلاب : ........</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|28" name="radio-2[28]" value="نعم هو غائب">
+ نعم هو غائب
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|28" name="radio-2[28]" value="لا هو حاضر">
+لا هو حاضر
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|28" name="radio-2[28]" value="بلى هو غائب">
+بلى هو غائب
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|28" name="radio-2[28]" value="بلى هو حاضر">
+بلى هو حاضر
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-29" id="jawaban_sesi_229" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-29">
+<div dir="rtl" class="mb-3"><p>٢٩. من يتكاسل في التعلم يندم في الإمتحان. حرف "من" .....</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|29" name="radio-2[29]" value="النافي">
+النافي
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|29" name="radio-2[29]" value="الموصولة">
+الموصولة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|29" name="radio-2[29]" value="الاستفهام">
+الاستفهام
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|29" name="radio-2[29]" value="الشرط">
+الشرط
+</label>
+</div>
+</div>
+</div> 
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-30" id="jawaban_sesi_230" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-30">
+<div dir="rtl" class="mb-3"><p>٣٠. تحسنت مريم شيئا فشيئا بعد تناولها الأدوية. كلمة "الأدوية" ....</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|30" name="radio-2[30]" value="الأدويةُ">
+الأدويةُ
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|30" name="radio-2[30]" value="الأدويةَ">
+الأدويةَ
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|30" name="radio-2[30]" value="الأدويةِ">
+الأدويةِ
+</label>
+ </div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|30" name="radio-2[30]" value="الأدويةْ">
+الأدويةْ
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-31" id="jawaban_sesi_231" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-31">
+<div dir="rtl" class="mb-3"><p>٣١. لا بد لك أن تملك نفسا ....</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|31" name="radio-2[31]" value="هادء">
+هادء
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|31" name="radio-2[31]" value="هادئ">
+هادئ
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|31" name="radio-2[31]" value="هادئة">
+هادئة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|31" name="radio-2[31]" value="هادءة">
+هادءة
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-32" id="jawaban_sesi_232" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-32">
+<div dir="rtl" class="mb-3"><p>٣٢. لا داعي ... الخوف، ما ارتكبت أي خطاء.</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|32" name="radio-2[32]" value="على">
+ على
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|32" name="radio-2[32]" value="ب">
+ب
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|32" name="radio-2[32]" value="في">
+في
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|32" name="radio-2[32]" value="ل">
+ل
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-33" id="jawaban_sesi_233" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-33">
+<div dir="rtl" class="mb-3"><p>٣٣. ذهبت ..... طالبة إلى حديقة الحيوانات.</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|33" name="radio-2[33]" value="سبعون">
+سبعون
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|33" name="radio-2[33]" value="سبع">
+سبع
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|33" name="radio-2[33]" value="سبعة">
+سبعة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|33" name="radio-2[33]" value="سبعة عشر">
+سبعة عشر
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+ <input type="hidden" name="jawaban_sesi_2[]" data-id="soal-34" id="jawaban_sesi_234" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-34">
+<div dir="rtl" class="mb-3"><p>٣٤. في كل سنبلة مائة حبة والله يضاعف لمن يشاء. كلمة "حبة" ....</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|34" name="radio-2[34]" value="مفعول به">
+مفعول به
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|34" name="radio-2[34]" value="مضاف إليه">
+مضاف إليه
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|34" name="radio-2[34]" value="مضاف">
+مضاف
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|34" name="radio-2[34]" value="مبتدأ">
+مبتدأ
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-35" id="jawaban_sesi_235" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-35">
+<div dir="rtl" class="mb-3"><p>٣٥. لا يسيل الجليد. كلمة "يسيل"...</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|35" name="radio-2[35]" value="منصوب">
+منصوب
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|35" name="radio-2[35]" value="مرفوع">
+مرفوع
+</label>
+</div>
+</div>
+ </div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|35" name="radio-2[35]" value="مجرور">
+مجرور
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|35" name="radio-2[35]" value="مجزوم">
+مجزوم
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-36" id="jawaban_sesi_236" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-36">
+<div dir="rtl" class="mb-3"><p>٣٦. من علامة إعراب النصب هي ...</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|36" name="radio-2[36]" value="الضمة">
+الضمة
+</label>
+</div>
+ </div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|36" name="radio-2[36]" value="السكون">
+السكون
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|36" name="radio-2[36]" value="ثبوت النون">
+ثبوت النون
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|36" name="radio-2[36]" value="الكسرة">
+الكسرة
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-37" id="jawaban_sesi_237" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-37">
+
+<div dir="rtl" class="mb-3"><p>٣٧. الأم – المشقة – من – تتألم – لا</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|37" name="radio-2[37]" value="الأم لا المشقة من تتألم">
+الأم لا المشقة من تتألم
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|37" name="radio-2[37]" value="لا المشقة من الأم تتألم">
+لا المشقة من الأم تتألم
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|37" name="radio-2[37]" value="لا تتألم الأم من المشقة">
+لا تتألم الأم من المشقة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|37" name="radio-2[37]" value="الأم لا تتألم المشقة من">
+الأم لا تتألم المشقة من
+</label>
+</div>
+</div>
+</div>
+</div>
+ </div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-38" id="jawaban_sesi_238" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-38">
+<div dir="rtl" class="mb-3"><p>٣٨. الأخطاء ..... التدريب شيء عادي.</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|38" name="radio-2[38]" value="وسط">
+وسط
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|38" name="radio-2[38]" value="أثناء">
+أثناء
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|38" name="radio-2[38]" value="جانب">
+جانب
+</label>
+</div>
+</div>
+</div>
+ <div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|38" name="radio-2[38]" value="أمام">
+أمام
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-39" id="jawaban_sesi_239" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-39">
+<div dir="rtl" class="mb-3"><p>٣٩. يبيع التاجر البضاءة في السوق. ما البناء من كلمة "يبيع" ....</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|39" name="radio-2[39]" value="مثال">
+مثال
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|39" name="radio-2[39]" value="أجواف">
+أجواف
+</label>
+</div>
+ </div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|39" name="radio-2[39]" value="نقص">
+نقص
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|39" name="radio-2[39]" value="لفيف">
+لفيف
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_2[]" data-id="soal-40" id="jawaban_sesi_240" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-40">
+<div dir="rtl" class="mb-3"><p>٤٠. يا .... المدرسة، اجتهدوا!</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|40" name="radio-2[40]" value="معلمون">
+معلمون
+</label>
+</div>
+ </div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|40" name="radio-2[40]" value="معلمين">
+معلمين
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|40" name="radio-2[40]" value="معلمو">
+معلمو
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="2|40" name="radio-2[40]" value="معلمي">
+معلمي
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="mb-3">
+
+<div class="d-flex justify-content-end">
+<button type="button" class="btn btn-md btn-success btnNext" data-id="sesi-3">
+Next
+<svg width="20" height="20">
+<use xlink:href="https://lisanularabpare.com/student/assets/tabler-icons-1.39.1/tabler-sprite.svg#tabler-arrow-narrow-right" />
+</svg>
+</button>
+</div>
+</div>
+</div>
+ <div id="sesi-3" style="display: none">
+<div class="form-floating mb-3">
+<select name="fontSize" class="form-control required">
+<option value="">Pilih Ukuran Tulisan</option>
+<option value="">Default</option>
+<option value="20px">20px</option>
+<option value="25px">25px</option>
+<option value="30px">30px</option>
+</select>
+<label>Ukuran Tulisan</label>
+</div>
+<div class="mb-3">
+
+<div class="d-flex justify-content-end">
+<button type="button" class="btn btn-md btn-primary btnSimpan" data-id="sesi-4">
+<svg width="20" height="20">
+<use xlink:href="https://lisanularabpare.com/student/assets/tabler-icons-1.39.1/tabler-sprite.svg#tabler-device-floppy" />
+</svg>
+Simpan
+</button>
+</div>
+</div>
+<input type="hidden" name="sesi-4" value="50">
+<input type="hidden" name="kunci_sesi[]" value="12">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-0">
+<div dir="rtl" class="mb-3">
+<p>يُحكى أنّ رجلا عجوزًا كان يعيش في قرية بعيدة، وكان أتعس شخص على وجه الأرض، حتى أنّ كلّ سكان القرية سئموا منه، لأنه كان محبطًا على الدوام، ولا يتوقّف عن التذمر والشكوى، ولم يكن يمرّ يوم دون أن تراه في مزاج سيء. وكلّما تقدّم به السنّ، ازداد كلامه سوءًا وسلبية.  كان سكّان القرية ينجنّبونه قدر الإمكان، فسوء حظّه أصبح مُعديًا. ويستحيل أن يحافظ أيّ شخص على سعادته بالقرب منه. لقد كان ينشر مشاعر الحزن والتعاسة لكلّ من حوله. </p>
+<p>لكن، وفي أحد الأيام وحينما بلغ العجوز من العمر ثمانين عامًا، حدث شيء غريب، وبدأت إشاعة عجيبة في الانتشار: </p>
+<p>"الرجل العجوز سعيد اليوم، إنه لا يتذمّر من شيء، والابتسامة ترتسم على محيّاه، بل إن ملامح وجهه قد أشرقت وتغيّرت!" </p>
+<p> تجمّع القرويون عند منزل العجوز، وبادره أحدهم بالسؤال: - "ما الذي حدث لك؟" وهنا أجاب العجوز: - "لا شيء مهمًّا...لقد قضيتُ من عمري 80 عامًا أطارد السعادة بلا طائل. ثمّ قرّرت بعدها أن أعيش من دونها، وأن أستمتع بحياتي وحسب، لهذا السبب أنا سعيد الآن!" </p></div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-1" id="jawaban_sesi_31" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-1">
+<div dir="rtl" class="mb-3"><p>١. لماذا سئم أهل القرية للعجوز؟ </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|1" name="radio-3[1]" value="لأنه كان مغصونا على الدوام">
+لأنه كان مغصونا على الدوام
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|1" name="radio-3[1]" value="لأنه كان متسامحا على الدوام">
+لأنه كان متسامحا على الدوام
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|1" name="radio-3[1]" value="لأنه كان محبطًا على الدوام">
+لأنه كان محبطًا على الدوام
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|1" name="radio-3[1]" value="لأنه كان مغنيا على الدوام">
+لأنه كان مغنيا على الدوام
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-2" id="jawaban_sesi_32" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-2">
+<div dir="rtl" class="mb-3"><p>٢. كيف كان العجوز إذا زاد منه العمر؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|2" name="radio-3[2]" value="ازداد صحاته">
+ازداد صحاته
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+ <label>
+<input type="radio" data-id="3|2" name="radio-3[2]" value="ازداد كلامه حلوة">
+ازداد كلامه حلوة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|2" name="radio-3[2]" value="ازداد صالحا  ">
+ازداد صالحا  
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|2" name="radio-3[2]" value="ازداد كلامه سوءًا وسلبية">
+ازداد كلامه سوءًا وسلبية
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-3" id="jawaban_sesi_33" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-3">
+<div dir="rtl" class="mb-3"><p>٣. لماذا يبعد عنه سكان القرية؟ </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|3" name="radio-3[3]" value="ينشر مشاعر الحزن والمزاح لكلّ من حوله">
+ينشر مشاعر الحزن والمزاح لكلّ من حوله
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|3" name="radio-3[3]" value="ينشر مشاعر الحزن والتعاسة لكلّ من حوله">
+ينشر مشاعر الحزن والتعاسة لكلّ من حوله
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|3" name="radio-3[3]" value="ينشر مشاعر الفرح والتعاسة لكلّ من حوله">
+ينشر مشاعر الفرح والتعاسة لكلّ من حوله
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|3" name="radio-3[3]" value="ينشر مشاعر الحزن والسعادة لكلّ من حوله">
+ينشر مشاعر الحزن والسعادة لكلّ من حوله
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+ <input type="hidden" name="jawaban_sesi_3[]" data-id="soal-4" id="jawaban_sesi_34" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-4">
+<div dir="rtl" class="mb-3"><p>٤. المرادف من كلمة "بادر" .... </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|4" name="radio-3[4]" value="أسلف">
+أسلف
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|4" name="radio-3[4]" value="أوجد">
+أوجد
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|4" name="radio-3[4]" value="سارع">
+سارع
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+ <div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|4" name="radio-3[4]" value="استمتع">
+استمتع
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-5" id="jawaban_sesi_35" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-5">
+<div dir="rtl" class="mb-3"><p>٥. المضاد من كلمة "بادر" .... </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|5" name="radio-3[5]" value="آجل">
+آجل
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|5" name="radio-3[5]" value="عاجل">
+عاجل
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|5" name="radio-3[5]" value="سارع">
+سارع
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|5" name="radio-3[5]" value="منع">
+منع
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-6" id="jawaban_sesi_36" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-6">
+<div dir="rtl" class="mb-3"><p>٦. متى تغير صفة العجوز؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|6" name="radio-3[6]" value="قبل بلغ ٨٠ من عمره">
+قبل بلغ ٨٠ من عمره
+</label>
+</div>
+</div>
+ </div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|6" name="radio-3[6]" value="عند بلغ ٨٠ من عمره">
+عند بلغ ٨٠ من عمره
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|6" name="radio-3[6]" value="قبيل بلغ ٨٠ من عمره">
+قبيل بلغ ٨٠ من عمره
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|6" name="radio-3[6]" value="عند بلغ ٧٠ من عمره">
+عند بلغ ٧٠ من عمره
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-7" id="jawaban_sesi_37" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-7">
+<div dir="rtl" class="mb-3"><p>٧. العبرة من القصة السابقة هي....</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|7" name="radio-3[7]" value="لا تطارد السعادة">
+لا تطارد السعادة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|7" name="radio-3[7]" value="لا تكن عجوزا">
+لا تكن عجوزا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|7" name="radio-3[7]" value="لا تقارب بالعجوز">
+لا تقارب بالعجوز
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|7" name="radio-3[7]" value="لا تقابل السعادة">
+لا تقابل السعادة
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-8">
+<div dir="rtl" class="mb-3">
+<p>نشأ الرشيد في بيت ملك، وأُعد ليتولى المناصب القيادية في الخلافة، وعهد به أبوه الخليفة “المهدي"  إلى من يقوم على أمره تهذيبًا وتعليمًا وتثقيفًا، وحسبك أن يكون من بين أساتذة الأمير الصغير “الكسائي”، والمفضل الضبي، وهما مَن هما علمًا ولغة وأدبًا، حتى إذا اشتد عوده واستقام أمره، ألقى به أبوه في ميادين الجهاد، وجعل حوله القادة الأكفاء، يتأسى بهم، ويتعلم من تجاربهم وخبراتهم، فخرج في عام (165 هـ / 781م) على رأس حملة عسكرية ضد الروم، وعاد محملاً بأكاليل النصر، فكوفئ على ذلك بأن اختاره أبوه وليًا ثانيًا للعهد بعد أخيه موسى الهادي.</p>
+<p>وكانت الفترة التي سبقت خلافته يحوطه في أثنائها عدد من الشخصيات السياسية والعسكرية، من أمثال “يحيى بن خالد البرمكي”، و”الربيع بن يونس”، و”يزيد بن مزيد الشيباني” و”الحسن بن قحطبة الطائي”، و”يزيد بن أسيد السلمي”، وهذه الكوكبة من الأعلام كانت أركان دولته حين آلت إليه الخلافة، ونهضوا معه بدولته حتى بلغت ما بلغت من التألق والازدهار.</p>
+<p>تمت البيعة للرشيد بالخلافة في (14 من شهر ربيع الأول 170هـ / 14 من سبتمبر 786م)، بعد وفاة أخيه موسى الهادي، وبدأ عصر زاهر كان واسطة العقد في تاريخ الدولة العباسية التي دامت أكثر من خمسة قرون، ارتقت فيه العلوم، وسمت الفنون والآداب، وعمَّ الرخاء ربوع الدولة.</p>
+<p>وكانت الدولة العباسية حين آلت خلافتها إليه مترامية الأطراف تمتد من وسط أسيا حتى المحيط الأطلنطي، مختلفة البيئات، متعددة العادات والتقاليد، معرضة لظهور الفتن والثورات، تحتاج إلى قيادة حكيمة وحازمة يفرض سلطانها الأمن والسلام، وتنهض سياستها بالبلاد. وكان الرشيد أهلاً لهذه المهمة الصعبة في وقت كانت فيه وسائل الاتصال شاقة، ومتابعة الأمور مجهدة، وساعده على إنجاز مهمته أنه أحاط نفسه بكبار القادة والرجال من ذوي القدرة والكفاءة، ويزداد إعجابك بالرشيد حين تعلم أنه أمسك بزمام هذه الدولة العظيمة وهو في نحو الخامسة والعشرين من عمره، فأخذ بيدها إلى ما أبهر الناس من مجدها وقوتها وازدهار حضارتها.</p></div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-9" id="jawaban_sesi_39" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-9">
+<div dir="rtl" class="mb-3"><p>٨. المرادف من كلمة "أب".... </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|9" name="radio-3[9]" value="ولد">
+ولد
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|9" name="radio-3[9]" value="والد">
+والد
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|9" name="radio-3[9]" value="بعل">
+بعل
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|9" name="radio-3[9]" value="وابل">
+وابل
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-10" id="jawaban_sesi_310" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-10">
+<div dir="rtl" class="mb-3"><p>٩. من هو "الكسائي"؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|10" name="radio-3[10]" value="صاحب هارون الرشيد">
+صاحب هارون الرشيد
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|10" name="radio-3[10]" value="مترجم هارون الرشيد">
+مترجم هارون الرشيد
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+ <label>
+<input type="radio" data-id="3|10" name="radio-3[10]" value="معلم هارون الرشيد">
+معلم هارون الرشيد
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|10" name="radio-3[10]" value="متعلم هارون الرشيد">
+متعلم هارون الرشيد
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-11" id="jawaban_sesi_311" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-11">
+<div dir="rtl" class="mb-3"><p>١٠. المضاد من كلمة "العود" .....</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|11" name="radio-3[11]" value="الانتقال">
+الانتقال
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|11" name="radio-3[11]" value="الرجوع">
+الرجوع
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|11" name="radio-3[11]" value="الثبات">
+الثبات
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|11" name="radio-3[11]" value="الذهاب">
+الذهاب
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-12" id="jawaban_sesi_312" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-12">
+<div dir="rtl" class="mb-3"><p>١١. متى تولى هارون الرشيد الخلافة؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|12" name="radio-3[12]" value="٧٨١ م">
+٧٨١ م
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|12" name="radio-3[12]" value="١٧٢ هـ">
+١٧٢ هـ
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|12" name="radio-3[12]" value="٧٨٦ م">
+٧٨٦ م
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|12" name="radio-3[12]" value="١٦٥ هـ">
+١٦٥ هـ
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-13" id="jawaban_sesi_313" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-13">
+<div dir="rtl" class="mb-3"><p>١٢. موسى الهادي، هو ...... هارون الرشيد.</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|13" name="radio-3[13]" value="عم">
+عم
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|13" name="radio-3[13]" value="معلم">
+معلم
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|13" name="radio-3[13]" value="أخو">
+أخو
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|13" name="radio-3[13]" value="ولد">
+ ولد
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-14" id="jawaban_sesi_314" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-14">
+<div dir="rtl" class="mb-3"><p>١٣. كيف كانت الدولة العباسية في عهد هارون الرشيد؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|14" name="radio-3[14]" value="متبثرا">
+متبثرا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|14" name="radio-3[14]" value="مكسورا">
+مكسورا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|14" name="radio-3[14]" value="مطمئنا">
+مطمئنا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|14" name="radio-3[14]" value="متخلفا">
+متخلفا
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-15" id="jawaban_sesi_315" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-15">
+<div dir="rtl" class="mb-3"><p>١٤. ويزداد إعجابك بالرشيد حين تعلم أنه أمسك بزمام هذه الدولة العظيمة وهو في نحو ....... من عمره. </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|15" name="radio-3[15]" value="٢٥">
+٢٥
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|15" name="radio-3[15]" value="٣٥">
+٣٥
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|15" name="radio-3[15]" value="١٥">
+١٥
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|15" name="radio-3[15]" value="٤٥">
+٤٥
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-16" id="jawaban_sesi_316" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-16">
+<div dir="rtl" class="mb-3"><p>١٥. المرادف من كلمة "الفترة".... </p></div>
+<div class="mb-3">
+<div class="form-check">
+ <div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|16" name="radio-3[16]" value="الوقت">
+الوقت
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|16" name="radio-3[16]" value="الزمان">
+الزمان
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|16" name="radio-3[16]" value="العصر">
+العصر
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|16" name="radio-3[16]" value="الراحة">
+الراحة
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-17" id="jawaban_sesi_317" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-17">
+<div dir="rtl" class="mb-3"><p>١٦. ما الشخصية المفضلة في هذه القصة؟ </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|17" name="radio-3[17]" value="المهدي">
+المهدي
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|17" name="radio-3[17]" value="الكسائي">
+الكسائي
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|17" name="radio-3[17]" value="موسى الهادي">
+موسى الهادي
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|17" name="radio-3[17]" value="هارون الرشيد">
+هارون الرشيد
+ </label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-18" id="jawaban_sesi_318" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-18">
+<div dir="rtl" class="mb-3"><p>١٧. ما العنوان المناسب للقصة السابقة؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|18" name="radio-3[18]" value="سيرة هارون الرشيد">
+سيرة هارون الرشيد
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|18" name="radio-3[18]" value="خلافة هارون الرشيد">
+خلافة هارون الرشيد
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|18" name="radio-3[18]" value="إعجاب هارون الرشيد">
+إعجاب هارون الرشيد
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|18" name="radio-3[18]" value="قضايا هارون الرشيد">
+قضايا هارون الرشيد
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-19">
+<div dir="rtl" class="mb-3">
+<p>يُحكى أنه كان في الغابة قردان صديقان أحدهما منحوس والأخر محظوظ بكل الأشياء، وفي يوم من الأيام اتفق القردان على أن يذهبا إلى مزرعة على مقربة منهما لجلب الموز وتناوله، ووضعا خطة لذلك تقتضي أن يبقى القرد المنحوس على الأرض فيما يصعد القرد المحظوظ إلى شجرة الموز ليقطفه ويلقيه للمنحوس في الأسفل، رأى المزارع القردان وهما يسرقان الموز فأمسك القرد المنحوس وأبرحه ضرباً فيما هرب القرد المحظوظ وهو يمسك قطف الموز، وفي المرة الثانية تكرر ما حصل وأبرح المزارع القرد المنحوس ضرباً أيضاً، إلى أن قرر القردان أن يتبادلا الأدوار. فصعد القرد المنحوس ليقطف الموز هذه المرة، فيما بقي المحظوظ على الأرض، وعندما رآهما المزارع أمسك القرد المحظوظ ليضربه، إلّا أنّه قرر أن يضرب القرد الموجود في أعلى الشجرة هذه المرة لا الموجود في أسفلها كما يفعل دائما، وبذلك أُبرح القرد المنحوس ضرباً للمرة الثالثة على التوالي فيما فرّ القرد المحظوظ ضاحكاً.</p></div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-20" id="jawaban_sesi_320" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-20">
+<div dir="rtl" class="mb-3"><p>١٨. أين يعيش منحوس؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|20" name="radio-3[20]" value="الغابة">
+الغابة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|20" name="radio-3[20]" value="المزرعة">
+المزرعة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|20" name="radio-3[20]" value="حديقة الحيوان">
+حديقة الحيوان
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|20" name="radio-3[20]" value="الحظيرة">
+الحظيرة
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-21" id="jawaban_sesi_321" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-21">
+<div dir="rtl" class="mb-3"><p>١٩. بما اتفق القردان؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|21" name="radio-3[21]" value="بأن يأكلا مرتبا">
+بأن يأكلا مرتبا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|21" name="radio-3[21]" value="بأن يناما هادئا">
+بأن يناما هادئا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+ <input type="radio" data-id="3|21" name="radio-3[21]" value="بأن يتبادلا الأدوار">
+بأن يتبادلا الأدوار
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|21" name="radio-3[21]" value="بأن يدورا الغابة">
+بأن يدورا الغابة
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-22" id="jawaban_sesi_322" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-22">
+<div dir="rtl" class="mb-3"><p>٢٠. أين نبت الموز؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|22" name="radio-3[22]" value="في الغابة">
+في الغابة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+ <div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|22" name="radio-3[22]" value="في المزرعة">
+في المزرعة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|22" name="radio-3[22]" value="في الحديقة">
+في الحديقة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|22" name="radio-3[22]" value="في الحقل">
+في الحقل
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-23" id="jawaban_sesi_323" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-23">
+<div dir="rtl" class="mb-3"><p>٢١. لماذا ذهب القردان إلى المزرعة؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|23" name="radio-3[23]" value="لأخذ النبات">
+لأخذ النبات
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|23" name="radio-3[23]" value="لجلب الموز">
+لجلب الموز
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|23" name="radio-3[23]" value="لحوار مع المزارع">
+لحوار مع المزارع
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|23" name="radio-3[23]" value="لتجول">
+لتجول
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-24" id="jawaban_sesi_324" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-24">
+<div dir="rtl" class="mb-3"><p>٢٢. المضاد من كلمة "هرب" ....</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|24" name="radio-3[24]" value="وقع">
+وقع
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|24" name="radio-3[24]" value="جرى">
+جرى
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|24" name="radio-3[24]" value="سارع">
+سارع
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|24" name="radio-3[24]" value="واجه">
+واجه
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-25" id="jawaban_sesi_325" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-25">
+<div dir="rtl" class="mb-3"><p>٢٣. من يضرب القرد المنحوس؟ </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|25" name="radio-3[25]" value="الراعي ">
+الراعي 
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|25" name="radio-3[25]" value="المحظوظ">
+المحظوظ
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+ <input type="radio" data-id="3|25" name="radio-3[25]" value="المزارع">
+المزارع
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|25" name="radio-3[25]" value="الداعي">
+الداعي
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-26" id="jawaban_sesi_326" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-26">
+<div dir="rtl" class="mb-3"><p>٢٤. لماذا ضُرب المنحوس؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|26" name="radio-3[26]" value="لأنه ضحك على الموز">
+لأنه ضحك على الموز
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+ <label>
+<input type="radio" data-id="3|26" name="radio-3[26]" value="لأنه نظر الموز">
+لأنه نظر الموز
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|26" name="radio-3[26]" value="لأنه نبت الموز">
+لأنه نبت الموز
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|26" name="radio-3[26]" value="لأنه سرق الموز">
+لأنه سرق الموز
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-27" id="jawaban_sesi_327" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-27">
+<div dir="rtl" class="mb-3"><p>٢٥. كيف كان يفرّ المحظوظ في نهاية الأمر؟</p></div>
+<div class="mb-3">
+ <div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|27" name="radio-3[27]" value="متسائما">
+متسائما
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|27" name="radio-3[27]" value="مضحكا">
+مضحكا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|27" name="radio-3[27]" value="محزنا">
+محزنا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|27" name="radio-3[27]" value="متبادلا">
+متبادلا
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-28">
+<div dir="rtl" class="mb-3">
+<p>غاب موسى -عليه السلام- عن قومه أربعين يوماً، وكان بنو إسرائيل قد انتظروا عشرين يوماً، وظنّوا أنّه لن يعود، فظهر رجلٌ منهم يُدعى السامريّ، وصنع لهم عجلاً من الحليّ، وادّعى أنّه إلهُهم، وأنّ عليهم عبادته، ففُتِن القوم، وعبدوه من دون الله، ويُشار إلى أنّ هارون -عليه السلام- كان قد نهاهم عن ذلك، وأمرهم بالرجوع عن فِعلهم، وحثّهم على عبادة الله ربّ العالَمين، فلم يستجيبوا له، بل اشتدّ تمسُّكهم بعبادة العجل، فلمّا عاد موسى -عليه السلام- بما وعدهم، ووجدهم على حالهم، عاتبَ أخاه هارون -عليه السلام-، فأخبره أنّهم استضعفوه، وكادوا يقتلونه، فلم يقوَ على رَدعهم، ثمّ ذهب موسى إلى السامريّ، فسأله عن فِعلته، فكان ردّه أنّه يملك ما لا يملكه بنو إسرائيل من بصيرةٍ، فما كان من موسى -عليه السلام- إلّا أن حرَّقَ العجل، ونسفَ رماده نَسفاً، وأخبره أنّ له عقوبة في الدُّنيا، وفي الآخرة، قال -تعالى-: (قَالَ فَاذْهَبْ فَإِنَّ لَكَ فِي الْحَيَاةِ أَنْ تَقُولَ لَا مِسَاسَ ۖ وَإِنَّ لَكَ مَوْعِدًا لَنْ تُخْلَفَهُ ۖ وَانْظُرْ إِلَىٰ إِلَٰهِكَ الَّذِي ظَلْتَ عَلَيْهِ عَاكِفًا ۖ لَنُحَرِّقَنَّهُ ثُمَّ لَنَنْسِفَنَّهُ فِي الْيَمِّ نَسْفًا)؛ فلا إله إلّا الله وحده.</p></div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-29" id="jawaban_sesi_329" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-29">
+<div dir="rtl" class="mb-3"><p>٢٦. كم مدة غاب موسى عن قومه؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|29" name="radio-3[29]" value="أقل من شهر">
+أقل من شهر
+</label>
+ </div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|29" name="radio-3[29]" value="زاد من شهرين">
+زاد من شهرين
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|29" name="radio-3[29]" value="أكثر من شهرين">
+أكثر من شهرين
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|29" name="radio-3[29]" value="أكثر من شهر">
+أكثر من شهر
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-30" id="jawaban_sesi_330" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-30">
+<div dir="rtl" class="mb-3"><p>٢٧. من هو السامريّ؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|30" name="radio-3[30]" value="أخو موسى عليه السلام">
+أخو موسى عليه السلام
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|30" name="radio-3[30]" value="رجل من بني إسرائيل">
+رجل من بني إسرائيل
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|30" name="radio-3[30]" value="جند فرعون">
+جند فرعون
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|30" name="radio-3[30]" value="خليل الله">
+خليل الله
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-31" id="jawaban_sesi_331" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-31">
+<div dir="rtl" class="mb-3"><p>٢٨. كيف معاملة بنو إسرائيل هارون عليه السلام؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|31" name="radio-3[31]" value="يطيعونه">
+يطيعونه
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|31" name="radio-3[31]" value="يسمعوه">
+يسمعوه
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|31" name="radio-3[31]" value="ينكرونه">
+ينكرونه
+</label>
+</div>
+</div>
+</div>
+ <div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|31" name="radio-3[31]" value="يسجدونه">
+يسجدونه
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-32" id="jawaban_sesi_332" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-32">
+<div dir="rtl" class="mb-3"><p>٢٩. من صنع عجلا بينهم؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|32" name="radio-3[32]" value="السامري">
+السامري
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|32" name="radio-3[32]" value="القاضي">
+القاضي
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|32" name="radio-3[32]" value="موسى عليه السلام">
+موسى عليه السلام
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|32" name="radio-3[32]" value="هارون عليه السلام">
+هارون عليه السلام
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-33" id="jawaban_sesi_333" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-33">
+<div dir="rtl" class="mb-3"><p>٣٠. كيف ظنّ بنو إسرائيل عن موسى عليه السلام؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|33" name="radio-3[33]" value="أنه مات">
+أنه مات
+ </label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|33" name="radio-3[33]" value="أنه جائع">
+أنه جائع
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|33" name="radio-3[33]" value="أنه لن يعود">
+أنه لن يعود
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|33" name="radio-3[33]" value="أنه في غمراة الموت">
+أنه في غمراة الموت
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-34" id="jawaban_sesi_334" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-34">
+<div dir="rtl" class="mb-3"><p>٣١. كيف كان معاملة موسى بهارون عليهما السلام بعد رجوعه؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|34" name="radio-3[34]" value="غضب له">
+غضب له
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|34" name="radio-3[34]" value="رضي له">
+رضي له
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|34" name="radio-3[34]" value="ضربه">
+ضربه
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|34" name="radio-3[34]" value="خاصمه">
+خاصمه
+</label>
+</div>
+</div>
+</div>
+</div>
+ </div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-35" id="jawaban_sesi_335" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-35">
+<div dir="rtl" class="mb-3"><p>٣٢. لماذا فعل السامري عن أمر؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|35" name="radio-3[35]" value="لأنه رجل من بني إسرائيل">
+لأنه رجل من بني إسرائيل
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|35" name="radio-3[35]" value="لأنه عنده بصيرة">
+لأنه عنده بصيرة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|35" name="radio-3[35]" value="لأنه عنده عجلا">
+لأنه عنده عجلا
+</label>
+</div>
+ </div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|35" name="radio-3[35]" value="لأنهم صدقوا بهم">
+لأنهم صدقوا بهم
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-36">
+<div dir="rtl" class="mb-3">
+<p>كان جحا يتسوّق ذات يوم فجاء رجل من الخلف وصفعه على خده، فالتفت إليه جحا وأراد أن يتعارك معه ولكنّ الرجل اعتذر بشدة قائلاً: إني آسف يا سيدي فقد ظننتك فلاناً، فلم يقبل جحا هذا العذر وأصرّ على محاكمته ولمّا علا صياحهما اقترح الناس أن يذهبا إلى القاضي ليحكم بينهما، فذهبا إلى القاضي، وصادف أن يكون ذلك القاضي قريباً للجاني ولمّا سمع القاضي القصة غمز لقريبه بعينه (يعني لا تقلق فسأخلصك من هذه الورطة)، ثمّ أصدر حكمه بأن يدفع الرجل لجحا مبلغ 20 ديناراً كعقوبة على ضربه.</p>
+<p> فقال الرجل: ولكن يا سيدي القاضي ليس معي شيئا الآن، فقال القاضي وهو يغمز له أذهب واحضرها حالاً وسينتظرك جحا عندي حتى تحضرها، فذهب الرجل وجلس جحا في مجلس القاضي ينتظر غريمه حتى يحضر المال، ومرت الساعات ولم يحضر الرجل، ففهم جحا الخدعة خاصة أنًه كان يبحث عن تفسير لتلك الغمزات التي وجهها القاضي لغريمه، فلما أدرك جحا أنّه خُدع من قِبل القاضي وقريبه قام وتوجّه إلى القاضي وصفعه على خده صفعة طارت منها عمامته وقال له: إذا أحضر غريمي الـ 20 ديناراً فخذها لك حلالاً طيباً وانصرف.</p></div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-37" id="jawaban_sesi_337" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-37">
+<div dir="rtl" class="mb-3"><p>٣٣. لماذا غضب جحا إلى رجل؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|37" name="radio-3[37]" value="لأنه قد نصحه">
+لأنه قد نصحه
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|37" name="radio-3[37]" value="لأنه قد سمعه">
+لأنه قد سمعه
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|37" name="radio-3[37]" value="لأنه قد التفت له">
+لأنه قد التفت له
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|37" name="radio-3[37]" value="لأنه قد ضربه">
+لأنه قد ضربه
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-38" id="jawaban_sesi_338" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-38">
+<div dir="rtl" class="mb-3"><p>٣٤. إلى من توجه جحا والرجل؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|38" name="radio-3[38]" value="الرئيس">
+الرئيس
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|38" name="radio-3[38]" value="الراعي">
+الراعي
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|38" name="radio-3[38]" value="القاضي">
+ القاضي
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|38" name="radio-3[38]" value="الملك">
+الملك
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-39" id="jawaban_sesi_339" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-39">
+<div dir="rtl" class="mb-3"><p>٣٥. لماذا تأذر الرجل إلى جحا؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|39" name="radio-3[39]" value="لأنه أخطأ">
+لأنه أخطأ
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+ <input type="radio" data-id="3|39" name="radio-3[39]" value="لأنه يتجب">
+لأنه يتجب
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|39" name="radio-3[39]" value="لأنه أمام القاضي">
+لأنه أمام القاضي
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|39" name="radio-3[39]" value="لأن من رجل ثري">
+لأن من رجل ثري
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-40" id="jawaban_sesi_340" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-40">
+<div dir="rtl" class="mb-3"><p>٣٦. هل دفع الرجل غريم جحا؟ </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|40" name="radio-3[40]" value="نعم، دفع الرجل غريم جحا">
+نعم، دفع الرجل غريم جحا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|40" name="radio-3[40]" value="لا، لن دفع الرجل غريم جحا">
+لا، لن دفع الرجل غريم جحا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|40" name="radio-3[40]" value="نعم، دفع الرجل غريم جحا">
+نعم، دفع الرجل غريم جحا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|40" name="radio-3[40]" value="لا، ما دفع الرجل غريم جحا">
+لا، ما دفع الرجل غريم جحا
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-41" id="jawaban_sesi_341" value="null">
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-41">
+<div dir="rtl" class="mb-3"><p>٣٧. من خدع في القصة السابقة؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|41" name="radio-3[41]" value="جحا">
+جحا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|41" name="radio-3[41]" value="الرجل">
+الرجل
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|41" name="radio-3[41]" value="القاضي">
+القاضي
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|41" name="radio-3[41]" value="الناس">
+الناس
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-42" id="jawaban_sesi_342" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-42">
+<div dir="rtl" class="mb-3"><p>٣٨. أين تعمل القاضي؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|42" name="radio-3[42]" value="في الكسرى">
+في الكسرى
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|42" name="radio-3[42]" value="في القصر">
+في القصر
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+ <input type="radio" data-id="3|42" name="radio-3[42]" value="في المحكمة">
+في المحكمة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|42" name="radio-3[42]" value="في السوق">
+في السوق
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-43">
+<div dir="rtl" class="mb-3">
+<p> قُتل عمر بن الخطاب -رضي الله عنه- وهو خليفة المسلمين وأمير المؤمنين، حين كان يؤمّ المسلمين في صلاة الفجر، وحصل ذلك حين استوت الصفوف للصلاة، وكبّر عمر -رضي الله عنه- لبدء الصلاة، فانطلق رجلٌ بسرعةٍ كبيرةٍ بين الصفوف، فطعن عمر -رضي الله عنه-، وشقّ بطنه، وكان أبو لؤلؤة المجوسي، ثمّ فرّ هارباً يطعن كلّ من يلاقي في طريقه، فقتل غير عمر سبعة رجالٍ، وجرح أحد عشر رجلاً، ثمّ رمى عليه أحد الرجال كساءً، فأمسك به، فنحر أبو لؤلؤة نفسه ومات، وبعد مرور فترةٍ وجيزةٍ مات عمر -رضي الله عنه-.</p></div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-44" id="jawaban_sesi_344" value="null">
+<div class="shadow card mb-3 soal">
+ <div class="card-body" id="soal-44">
+<div dir="rtl" class="mb-3"><p>٣٩. ما الموضوع المناسب للقصة السابقة؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|44" name="radio-3[44]" value="شجاع عمر بن الخطاب">
+شجاع عمر بن الخطاب
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|44" name="radio-3[44]" value="استشهاد عمر بن الخطاب">
+استشهاد عمر بن الخطاب
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|44" name="radio-3[44]" value="صفة عمر بن الخطاب">
+صفة عمر بن الخطاب
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|44" name="radio-3[44]" value="كرمة عمر بن الخطاب">
+كرمة عمر بن الخطاب
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-45" id="jawaban_sesi_345" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-45">
+<div dir="rtl" class="mb-3"><p>٤٠. متى قتل عمر بن الخطاب؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|45" name="radio-3[45]" value="عند الصبح">
+عند الصبح
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|45" name="radio-3[45]" value="عند الظهر">
+عند الظهر
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|45" name="radio-3[45]" value="عند المساء">
+عند المساء
+</label>
+</div>
+</div>
+ </div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|45" name="radio-3[45]" value="عند الليل">
+عند الليل
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-46" id="jawaban_sesi_346" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-46">
+<div dir="rtl" class="mb-3"><p>٤١. كيف كان وفاة عمر بن الخطاب؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|46" name="radio-3[46]" value="بضرب ">
+بضرب 
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|46" name="radio-3[46]" value="بحرب">
+بحرب
+</label>
+</div>
+ </div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|46" name="radio-3[46]" value="بطعن">
+بطعن
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|46" name="radio-3[46]" value="بشجاع">
+بشجاع
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-47" id="jawaban_sesi_347" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-47">
+<div dir="rtl" class="mb-3"><p>٤٢. من هو أبو لؤلؤة المجوسي؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|47" name="radio-3[47]" value="المأموم">
+المأموم
+</label>
+ </div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|47" name="radio-3[47]" value="الإمام">
+الإمام
+</label>
+</div>
+</div>
+ </div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|47" name="radio-3[47]" value="القاتل">
+القاتل
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|47" name="radio-3[47]" value="المقتول">
+المقتول
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-48" id="jawaban_sesi_348" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-48">
+<div dir="rtl" class="mb-3"><p>٤٣. كم عدد المقتول في ذالك الفجر؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|48" name="radio-3[48]" value="سبعة رجال">
+سبعة رجال
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|48" name="radio-3[48]" value="ثمانية رجال">
+ثمانية رجال
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|48" name="radio-3[48]" value="تسعة رجال">
+تسعة رجال
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|48" name="radio-3[48]" value="عشرة رجال">
+عشرة رجال
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-49" id="jawaban_sesi_349" value="null">
+<div class="shadow card mb-3 soal">
+ <div class="card-body" id="soal-49">
+<div dir="rtl" class="mb-3"><p>٤٤. كيف كان عمر في ذالك الفجر؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|49" name="radio-3[49]" value="كان إماما">
+كان إماما
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|49" name="radio-3[49]" value="كان مأموما">
+كان مأموما
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|49" name="radio-3[49]" value="كان مؤذنا">
+كان مؤذنا
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|49" name="radio-3[49]" value="كان منفردا">
+كان منفردا
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+ <div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-50">
+<div dir="rtl" class="mb-3">
+<p>يحكى أنّ شاباً ثرثاراً رأي شيخاً كبيراً ذو دقن طويلة غزاها الشيب يجلس مرّة على باب سوق، فأراد هذا الشاب أن يبدأ معه حديثاً يسليه به، فأتى إليه وسلّم عليه وقال له: هل بسؤال ياعم؟ فقال له الشيخ الكبير: تفضّل يا بني، فقال الشاب: أتضع ذقنك هذه فوق اللحاف عند نومك يا عمّاه أم تحته؟ سكت العجوز برهة ولم يعرف لسؤال هذا الشاب جواباً؛ ذلك لأنّه لم يتفطّن لما يفعله به عند نومه من قبل، لكّنه وعده أن يلاحظ ما هو فاعل به عندما ينام الليلة، وفي الصباح انطلق العجوز باحثاً عن الشاب في السوق بكل عزمه، ولمّا لقيه سلّم عليه وانهال عليه ضرباً وقال له: أربعون عاماً وأنا أحمل ذقني أينما حللت ولا أشعر منه بثِقل لا في نوم، ولا في طعام ولا في شراب، أمّا الليلة فقد جافاني النوم ولم أعرف له طريق، إن رفعتها فوق اللحاف أحسست بأنني مشنوق، وإن وضعتها تحت اللحاف أحسست بأنني مخنوق، فاذهب لا بارك الله في أعدائك ولا سلّطك بثرثرتك هذه على أحد.</p></div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-51" id="jawaban_sesi_351" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-51">
+<div dir="rtl" class="mb-3"><p>٤٥. لماذا أراد الشاب أن يتكلم بشيخ؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|51" name="radio-3[51]" value=" تسلية به">
+تسلية به
+</label>
+ </div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|51" name="radio-3[51]" value=" مزاحا له">
+مزاحا له
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|51" name="radio-3[51]" value=" خوفا منه">
+خوفا منه
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|51" name="radio-3[51]" value=" تعظيما له">
+تعظيما له
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-52" id="jawaban_sesi_352" value="null">
+<div class="shadow card mb-3 soal">
+ <div class="card-body" id="soal-52">
+<div dir="rtl" class="mb-3"><p>٤٦. لماذا سكت الشيخ؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|52" name="radio-3[52]" value="لأنه صائم">
+لأنه صائم
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|52" name="radio-3[52]" value="لأنه مريض">
+لأنه مريض
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|52" name="radio-3[52]" value="لأنه لم يعرف الإجابة">
+لأنه لم يعرف الإجابة
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|52" name="radio-3[52]" value="لأنه لم يفهم السؤال">
+لأنه لم يفهم السؤال
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+ <input type="hidden" name="jawaban_sesi_3[]" data-id="soal-53" id="jawaban_sesi_353" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-53">
+<div dir="rtl" class="mb-3"><p>٤٧. من يكون ثرثارا في القصة السابقة؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|53" name="radio-3[53]" value="الشاب">
+الشاب
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|53" name="radio-3[53]" value="العجوز">
+العجوز
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|53" name="radio-3[53]" value="الشيخ">
+الشيخ
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|53" name="radio-3[53]" value="الناس">
+الناس
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-54" id="jawaban_sesi_354" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-54">
+<div dir="rtl" class="mb-3"><p>٤٨. المضاد من كلمة "ثقيل"... </p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|54" name="radio-3[54]" value="جاف">
+جاف
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|54" name="radio-3[54]" value="خفيف">
+خفيف
+</label>
+</div>
+</div>
+</div>
+ <div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|54" name="radio-3[54]" value="ضخل">
+ضخل
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|54" name="radio-3[54]" value="ضحم">
+ضحم
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-55" id="jawaban_sesi_355" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-55">
+<div dir="rtl" class="mb-3"><p>٤٩. المرادف من كلمة "سكت" ....</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|55" name="radio-3[55]" value="صام">
+صام
+</label>
+</div>
+</div>
+ </div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|55" name="radio-3[55]" value="أجب">
+أجب
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|55" name="radio-3[55]" value="عامر">
+عامر
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|55" name="radio-3[55]" value="صمت">
+صمت
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<input type="hidden" name="jawaban_sesi_3[]" data-id="soal-56" id="jawaban_sesi_356" value="null">
+<div class="shadow card mb-3 soal">
+<div class="card-body" id="soal-56">
+<div dir="rtl" class="mb-3"><p>٥٠. أين المكان الذي حدث  القصة السابقة ؟</p></div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|56" name="radio-3[56]" value="القرية">
+القرية
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|56" name="radio-3[56]" value="البلاد">
+البلاد
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|56" name="radio-3[56]" value="السوق">
+السوق
+</label>
+</div>
+</div>
+</div>
+<div class="mb-3">
+<div class="form-check">
+<div class="text-right" dir="rtl">
+<label>
+<input type="radio" data-id="3|56" name="radio-3[56]" value="المنزل">
+المنزل
+</label>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="mb-3">
+
+ <div class="d-flex justify-content-end">
+<button type="button" class="btn btn-md btn-primary btnSimpan" data-id="sesi-4">
+<svg width="20" height="20">
+<use xlink:href="https://lisanularabpare.com/student/assets/tabler-icons-1.39.1/tabler-sprite.svg#tabler-device-floppy" />
+</svg>
+Simpan
+</button>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+<footer class="footer footer-transparent d-print-none">
+<div class="container">
+<div class="row text-center align-items-center flex-row-reverse">
+<div class="col-lg-auto ms-lg-auto">
+<ul class="list-inline list-inline-dots mb-0">
+</ul>
+</div>
+<div class="col-12 col-lg-auto mt-3 mt-lg-0">
+<ul class="list-inline list-inline-dots mb-0">
+<li class="list-inline-item">
+<center> Lisanul Arab Pare | Supported by <a href="https://www.paketwebsite.net" target="_blank" rel="nofollow">Paketwebsite.net</a></center>
+</ul>
+</div>
+</div>
+</div>
+</footer> </div>
+</div>
+</div>
+<script src="https://lisanularabpare.com/student/assets/myjs/ajax.js"></script>
+<script src="https://lisanularabpare.com/student/assets/myjs/function.js"></script>
+<script src="https://lisanularabpare.com/student/assets/myjs/helper.js"></script>
+
+
+<script src="https://lisanularabpare.com/student/assets/js/tabler.min.js"></script>
+</body>
+</html>
+<script>
+    $("#hidePassword").hide();
+    
+    $("#showPassword").click(function(){
+        $("input[name='password']").prop('type', 'text');
+        $("#showPassword").hide();
+        $("#hidePassword").show()
+    })
+    
+    $("#hidePassword").click(function(){
+        $("input[name='password']").prop('type', 'password');
+        $("#showPassword").show();
+        $("#hidePassword").hide()
+    })
+
+    $("select[name='fontSize']").change(function(){
+        let size = $(this).val();
+        $(".soal").css("font-size",size);
+        $(this).val(size)
+    })
+
+    $(".btnSignIn").click(function(){
+        let id_tes = $("input[name='id_tes']").val();
+        let password = $("input[name='password']").val();
+
+        $.ajax({
+            url: "https://lisanularabpare.com/student/soal/password_check",
+            method: "POST",
+            data: {id:id_tes, password:password},
+            success: function(result){
+                if(result){
+                    Swal.fire({
+                        icon: 'success',
+                        title: '',
+                        text: 'Berhasil masuk',
+                        showConfirmButton: false,
+                        timer: 1500
+                    })
+                    $("#login").hide();
+                    $("#soal_tes").show();
+                } else {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Oops...',
+                        text: 'Password yang Anda masukkan salah'
+                    })
+                }
+            }
+        })
+    })
+
+    var click = false;
+    $(".btnNext").click(function(){
+        let id = $(this).data("id");
+
+        if(id == "sesi-1"){
+
+            let form = "#sesi-0";
+
+            let email = $(form+" [name='email']").val();
+            let id_tes = "8d5e957f297893487bd98fa830fa6413"
+
+            let eror = required(form);
+            
+            if(eror == 1){
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Lengkapi data terlebih dahulu',
+                })
+            } else {
+                let table = "peserta_toefl";
+                
+                $.ajax({
+                    url: "https://lisanularabpare.com/student/soal/email_check/"+table,
+                    data: {email:email, id:id_tes},
+                    dataType: "JSON",
+                    method: "POST",
+                    success: function(result){
+                        if(result) {
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Oops...',
+                                text: 'Maaf email Anda telah digunakan',
+                            })
+                        } else {
+                            if(click == false) {
+                                Swal.fire({
+                                    icon: 'question',
+                                    html: 'Mulai mengerjakan soal?',
+                                    showCloseButton: true,
+                                    showCancelButton: true,
+                                    confirmButtonText: 'Ya',
+                                    cancelButtonText: 'Tidak'
+                                }).then(function (result) {
+                                    if (result.value) {
+                                        // mulai hitung waktu
+                                        if(click == false){
+                                            sec = 145 * 60,
+                                            countDiv = document.getElementById("waktu"),
+                                            secpass,
+                                            countDown = setInterval(function () {
+                                                'use strict';
+                                                secpass();
+                                            }, 1000);
+                                        }
+
+                                        click = true;
+                                        // hide all id 
+                                        $("div[id^='sesi-'").hide();
+                                        // show sesi 
+                                        $("#"+id).show();
+                                        
+                                        // scroll to top 
+                                        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                                            $([document.documentElement, document.body]).animate({
+                                                scrollTop: $("#elementtoScrollToID").offset().top
+                                            }, 1000);
+                                        }
+
+                                    } else {
+                                        return;
+                                    }
+                                })
+                            } else {
+                                // hide all id 
+                                $("div[id^='sesi-'").hide();
+                                // show sesi 
+                                $("#"+id).show();
+                                
+                                // scroll to top 
+                                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                                    $([document.documentElement, document.body]).animate({
+                                        scrollTop: $("#elementtoScrollToID").offset().top
+                                    }, 1000);
+                                }
+                            }
+                        }
+                    }
+                })
+            }
+            
+        } else {
+
+            jumlah_soal = $("[name='"+id+"']").val();
+
+            sesi = id.replace("sesi-", "");
+            sesi = parseInt(sesi-1);
+
+            if($('#sesi-'+sesi+' input:radio:checked').length != jumlah_soal){
+            
+                $.each($("#sesi-"+sesi+" [name='jawaban_sesi_"+sesi+"[]']"), function(){
+                    index = $(this).data("id");
+                    $("#sesi-"+sesi+" #"+index).removeClass("list-group-item-danger")
+
+                    if($(this).val() == "null"){
+                        $("#sesi-"+sesi+" #"+index).addClass("list-group-item-danger")
+                    }
+                })
+
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Anda belum menyelesaikan soal pada sesi ini',
+                })
+            } else {
+                Swal.fire({
+                    icon: 'question',
+                    html: 'Yakin akan pindah ke sesi selanjutnya?<br><small style="font-size: 0.70em" class="form-text text-danger">Anda tidak akan bisa kembali ke sesi ini</small>',
+                    showCloseButton: true,
+                    showCancelButton: true,
+                    confirmButtonText: 'Ya',
+                    cancelButtonText: 'Tidak'
+                }).then(function (result) {
+                    if (result.value) {
+                        
+                        // hide all id 
+                        $("div[id^='sesi-'").hide();
+                        // show sesi 
+                        $("#"+id).show();
+                        
+                        // scroll to top 
+                        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                            $([document.documentElement, document.body]).animate({
+                                scrollTop: $("#elementtoScrollToID").offset().top
+                            }, 1000);
+                        }
+                    }
+                })
+            }
+        }
+    })
+    
+    $(".btnBack").click(function(){
+        let id = $(this).data("id");
+        $("div[id^='sesi-'").hide();
+        $("#"+id).show();
+    })
+
+    $(".btnSimpan").click(function(){
+        let id = $(this).data("id");
+        jumlah_soal = $("[name='"+id+"']").val();
+
+        sesi = id.replace("sesi-", "");
+        sesi = parseInt(sesi-1);
+
+        if($('#sesi-'+sesi+' input:radio:checked').length != jumlah_soal){
+        
+            $.each($("#sesi-"+sesi+" [name='jawaban_sesi_"+sesi+"[]']"), function(){
+                index = $(this).data("id");
+                $("#sesi-"+sesi+" #"+index).removeClass("list-group-item-danger")
+
+                if($(this).val() == "null"){
+                    $("#sesi-"+sesi+" #"+index).addClass("list-group-item-danger")
+                }
+            })
+
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'Anda belum menyelesaikan soal pada sesi ini',
+            })
+        } else {
+            Swal.fire({
+                icon: 'question',
+                html: 'Yakin telah menyelesaikan tes Anda?',
+                showCloseButton: true,
+                showCancelButton: true,
+                confirmButtonText: 'Ya',
+                cancelButtonText: 'Tidak'
+            }).then(function (result) {
+                if (result.value) {
+                    $(".btnSimpan").html("Proses...");
+                    $(".btnSimpan").prop("disabled", true);
+                    $(".btnBack").prop("disabled", true);
+                    $("#formSoal").submit()
+                }
+            })
+        }
+    })
+
+    function secpass() {
+        'use strict';
+        
+        var min     = Math.floor(sec / 60),
+            remSec  = sec % 60;
+        
+        if (remSec < 10) {
+            
+            remSec = '0' + remSec;
+        
+        }
+        if (min < 10) {
+            
+            min = '0' + min;
+        
+        }
+        countDiv.innerHTML = min + ":" + remSec;
+        
+        if (sec > 0) {
+            sec = sec - 1;
+        } else {
+            clearInterval(countDown);
+            $("#formSoal").submit();
+        }
+    }
+
+    $('input:radio').click(function () {
+        let id = $(this).data("id");
+        id = id.split("|");
+        let value = $(this).val();
+        $("#jawaban_sesi_"+id[0]+""+id[1]).val(value);
+    });
+</script>

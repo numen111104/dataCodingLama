@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+html {
+    position: relative;
+    min-height: auto;
+}
+.kepala {
+    font-size: larger;
+    font-family: 'Mouse Memoirs', sans-serif;
+}

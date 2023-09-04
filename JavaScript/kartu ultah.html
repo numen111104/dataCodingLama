@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kartu Ulang Tahun</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        #card {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: rgb(241, 25, 25);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            perspective: 1000px;
+            cursor: pointer;
+        }
+
+        #content {
+            position: relative;
+            transition: transform 1s ease;
+            transform-style: preserve-3d;
+        }
+
+        #content.front {
+            transform: translateZ(-200px);
+        }
+
+        #content.back {
+            transform: rotateY(180deg) translateZ(200px);
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="card">
+        <div id="content" class="front">
+            <h1>Buka Surat Ini</h1>
+        </div>
+        <div id="content" class="back">
+            <h1>Isi Surat</h1>
+            <p>Selamat Ulang Tahun!</p>
+            <p>Terima kasih telah menjadi bagian dari hidupku.</p>
+            <p>Semoga kamu selalu bahagia dan sukses!</p>
+        </div>
+    </div>
+
+    <script>
+        var card = document.getElementById("card");
+        var frontContent = document.querySelector("#card .front");
+        var backContent = document.querySelector("#card .back");
+
+        card.addEventListener("click", function () {
+            frontContent.classList.toggle("front");
+            backContent.classList.toggle("back");
+        });
+    </script>
+</body>
+
+</html>
